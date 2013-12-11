@@ -1,0 +1,513 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"image",
+				"image-wrapper"
+			],
+			[
+				"conten",
+				"content-box"
+			],
+			[
+				"prin",
+				"principal-content"
+			],
+			[
+				"parent",
+				"parent_title"
+			],
+			[
+				"height",
+				"height"
+			],
+			[
+				"img-cta-widget",
+				"img-cta-widget-sideText"
+			],
+			[
+				"prev",
+				"repl.REPLServer(prompt, stream, eval, useGlobal, ignoreUndefined);"
+			],
+			[
+				"background",
+				"background-image"
+			],
+			[
+				"wri",
+				"writeHead"
+			],
+			[
+				"getElement",
+				"getElementsByClassName  (function)"
+			],
+			[
+				"footer",
+				"footerBody"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/JSHint/JSHint.sublime-build",
+	"command_palette":
+	{
+		"height": 81.0,
+		"selected_items":
+		[
+			[
+				"diff",
+				"FileDiffs: Menu"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"jshint",
+				"JSHint"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"lint",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"linter",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"jslint",
+				"JSLint"
+			],
+			[
+				"goto",
+				"Goto Documentation"
+			],
+			[
+				"go",
+				"Goto Documentation"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"node",
+				"Nodejs::Run::Current File"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 424.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/moappibi/0.3/js/demo.js",
+		"/C/xampp/htdocs/moappibi/0.3/js/transforms.js",
+		"/C/Users/Vince/.ssh/id_rsa.pub",
+		"/C/Users/Vince/.ssh/id_rsa",
+		"/C/xampp/htdocs/eatubc_dev/.gitignore",
+		"/C/Users/Vince/Projects/architexturize/buildrun/WebPlayer/WebPlayer.html",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/principal-post.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/footer.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/template-generic-fullwidth.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/template-overview.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/template-case-studies.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/header.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/template-careers.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/template-contact.php",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/header.php",
+		"/C/xampp/htdocs/newp/test2.html",
+		"/C/Users/Vince/Desktop/test2.html",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/template-blog.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/blog-post.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/single.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/template-principals.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/layout.js",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/js/layout.js",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/functions.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/float-nav-secondary.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/template-home.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/content-boxes.php",
+		"/C/Users/Vince/Documents/GitHub/sq.js/examples/main.html",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/style.css",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/js/timeline.js",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/content-header.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/template-secondary.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/content-box.php",
+		"/C/xampp/htdocs/eatubc_dev/wp-config.php",
+		"/C/Users/Vince/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/template-overview-sidebar.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/float-nav.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/css/ie.css",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/.htaccess",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/color_r0_g0_b0_a114.png",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/rgba.php",
+		"/C/Users/Vince/Desktop/rgba/rgba.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/case-study-post.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/index.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/css/skeleton.css",
+		"/C/Users/Vince/Desktop/garbage.css",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/template-case-studies - Copy.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/template-generic-sidebar.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/job-post.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/sidebar.php",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/index.html",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/.gitignore",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/test/timeline.html",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/authorized_keys",
+		"/C/Users/Vince/Desktop/single.php",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/single 2.php",
+		"/C/Users/Vince/Desktop/template-eb-overview.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/eb-template.php",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-2/public-post-preview.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/template-home.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/style.css",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-2/authorized_keys",
+		"/C/Users/Vince/.ssh/known_hosts",
+		"/C/Users/Vince/.ssh/github_rsa",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/header.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/searchform.php",
+		"/C/Users/Vince/Desktop/javascript-koans-master/javascript-koans-master/koans/AboutArrays.js",
+		"/C/Users/Vince/Desktop/javascript-koans-master/javascript-koans-master/koans/AboutExpects.js",
+		"/C/Users/Vince/Desktop/javascript-koans-master/javascript-koans-master/README.markdown",
+		"/C/Users/Vince/Desktop/javascript-koans-master/javascript-koans-master/LICENSE",
+		"/C/Users/Vince/Desktop/javascript-koans-master/javascript-koans-master/KoansRunner.html",
+		"/C/Users/Vince/Desktop/index.html",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/footer.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/tag.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/single.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/sidebar.php",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-2/sample.css",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-2/lasers.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/full-width-page.php",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-2/template-news-events.php",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-2/template-ventures.php",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-2/style.css",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-2/lt-ie8-style.css",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-2/template-home.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/js/html5.js",
+		"/C/Users/Vince/Desktop/outstanding Nov/invoice-130726-SAUD-GST.xlsx",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-2/timeline.html",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-2/index 2.html",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-2/index.html",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/css/style.css",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/page.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/css/skeleton.css",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/css/rtl.css",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/rtl.css",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/skeleton.css",
+		"/C/Users/Vince/Desktop/rdh/rdh_assets/webfontkit-20131104-011222/stylesheet.css",
+		"/C/Users/Vince/Desktop/rdh/rdh_assets/webfontkit-20131104-011222/specimen_files/specimen_stylesheet.css",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/.viminfo",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/.bash_history",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/RPM-GPG-KEY.art.txt",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/games.zip",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/template-home",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/template-about.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/index.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/image.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/functions.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/content-page.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/content-image.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/content-gallery.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/content-aside.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/comments.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/category.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/author.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/archive.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/404.php",
+		"/C/Users/Vince/Desktop/ubcmbawelcome/web/index.html",
+		"/C/Users/Vince/Desktop/ubcmbawelcome/web/css/lt-ie9.css",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/wp-config.php",
+		"/C/Users/Vince/Desktop/ubcmbawelcome/web/css/main.css",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/layout.css",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/style.css",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/base.css",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/custom.css",
+		"/C/Users/Vince/Downloads/_b8f4e085df4ff906f5454de0f9fa1143.html",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/index 2.html",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/.htaccess 2",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/config",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/post-commit.sample"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".logo",
+			".button",
+			".hero-box",
+			".wistia",
+			"wistia",
+			"wistia-pop",
+			"strict",
+			".generic-page",
+			".feature-image",
+			".generic-page",
+			".header-wrapper",
+			"201",
+			"timeline",
+			"video-button",
+			"principal",
+			"/localhost",
+			"entrepreneurship.ubc.ca",
+			"content-box",
+			"more-overlay",
+			"menu-label",
+			"secondary",
+			"round",
+			"PIE.htc",
+			"border-radius.htc",
+			"behavior",
+			"rgba",
+			"background",
+			"section",
+			"header-wrapper",
+			"rgba",
+			"clear",
+			"principal",
+			".close",
+			".hide",
+			"content-box",
+			"float-nav",
+			".section-nav.t2",
+			"section=-nav",
+			"secondary",
+			".button",
+			"overflow",
+			".content",
+			"rounded",
+			".social-box",
+			".secondary-header",
+			"0.1",
+			"centering",
+			"pull-down",
+			"search",
+			"less-100",
+			"proximity",
+			"sidebar",
+			"two-col",
+			"parent",
+			"excerpt",
+			"case-study",
+			"overview",
+			"image-wrapper",
+			"overview",
+			"rgba",
+			"image-",
+			"image-wrapper",
+			"footer",
+			"unfocused",
+			".section",
+			"pull-right",
+			"url(",
+			"full-width",
+			"menu",
+			".overlay",
+			"overlay",
+			"37 partner",
+			"37",
+			"webFont",
+			"navigation",
+			"hfeed",
+			"Semantic",
+			"@since Toolbox 0.1",
+			"@package Toolbox",
+			"prev",
+			"logo",
+			".logo",
+			"headerwrapper",
+			"$post_date",
+			"date",
+			"’",
+			"‘",
+			".toggler",
+			"menu-items",
+			"section-header",
+			"innovation",
+			"business innovation",
+			"ethics and sunstainability",
+			"business innovation",
+			"responsible business",
+			"footer",
+			"wrapper",
+			"ul li",
+			"section-header",
+			"section-divider",
+			"ibm",
+			"business-design",
+			"lenses",
+			"#lenses",
+			"#business-design",
+			"section-header",
+			"h4",
+			"parse",
+			"tweet",
+			"wrapper",
+			"lenses",
+			"</p>",
+			"<p>",
+			".container",
+			"newih/",
+			"start",
+			"1000ms",
+			"start",
+			"complete",
+			"pagination",
+			"display",
+			"_setactive",
+			"margin",
+			"resize",
+			"videobg",
+			"$(window",
+			"resize",
+			"width"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/localhost/eatubc_dev",
+			"@since RDH 0.1",
+			"@package RDH",
+			"Innovation and Entrepreneurship"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.526799590509,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 136.0
+	},
+	"output.jslint_result_view":
+	{
+		"height": 88.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 218.0,
+	"status_bar_visible": true
+}
