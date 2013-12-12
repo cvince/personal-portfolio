@@ -1,2 +1,4 @@
 <?php
-define("ROOT", __DIR__ ."/"); ?>
+define("ROOT", "http://localhost/newportfolio"."/"); ?>
+
+<!-- __DIR__ when online -->
