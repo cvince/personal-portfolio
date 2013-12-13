@@ -37,40 +37,40 @@
 	</div>
 	<div class="content">
 		<div class="gridholder work-holder">
-			<div class="grid quarter">
+			<div class="grid">
 				<div class="work-item un-entered" style="background-image: url('img/eubc.jpg')"></div>
 			</div>
-			<div class="grid quarter">
+			<div class="grid">
 				<div class="work-item un-entered" style="background-image: url('img/appannie.jpg')"></div>
 			</div>
-			<div class="grid quarter">
+			<div class="grid">
 				<div class="work-item un-entered" style="background-image: url('img/sauder.png')"></div>
 			</div>
-			<div class="grid quarter">
+			<div class="grid">
 				<div class="work-item un-entered" style="background-image: url('img/duohelica.png')"></div>
 			</div>	
-			<div class="grid quarter">
+			<div class="grid">
 				<div class="work-item un-entered" style="background-image: url('img/moappi.jpg')"></div>
 			</div>					
-			<div class="grid quarter">
+			<div class="grid">
 				<div class="work-item un-entered" style="background-image: url('img/fidelity.jpg')"></div>
 			</div>	
-			<div class="grid quarter">			
+			<div class="grid">			
 				<div class="work-item un-entered" style="background-image: url('img/abigaila.jpg')"></div>
 			</div>	
-			<div class="grid quarter">
+			<div class="grid">
 				<div class="work-item un-entered" style="background-image: url('img/suncentral.jpg')"></div>
 			</div>	
-			<div class="grid quarter">
+			<div class="grid">
 				<div class="work-item un-entered" style="background-image: url('img/ideahack.jpg')"></div>
 			</div>	
-			<div class="grid quarter">
+			<div class="grid">
 				<div class="work-item un-entered" style="background-image: url('img/clearink.jpg')"></div>
 			</div>																		
-			<div class="grid quarter">
+			<div class="grid">
 				<div class="work-item un-entered" style="background-image: url('img/silverLine.png')"></div>
 			</div>	
-			<div class="grid quarter">
+			<div class="grid">
 				<div class="work-item un-entered" style="background-image: url('img/ubcfc.png')"></div>
 			</div>	
 		</div>

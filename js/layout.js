@@ -28,7 +28,7 @@ $(document).ready(function(){
 
 function waypointer(targetID,classUp,classDown, correspondingNav){
 
-	$(targetID).waypoint({offset: 100, handler: function(direction){
+	$(targetID).waypoint({offset: 10, handler: function(direction){
 		if(direction == 'down'){
 			$(correspondingNav).addClass('activated');
 			console.log(correspondingNav+'activated');

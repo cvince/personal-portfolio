@@ -24,7 +24,7 @@ section.page{
 
 	section.page .header{
 		height: 225px;
-		margin-left: 200px;
+		padding-left: 200px;
 	}
 
 	section.page .header .logo{
@@ -200,7 +200,7 @@ body.concepts nav{ color:#666; }
 	width: 100%;
 }
 
-.grid.quarter{
+.grid{
 	width: 25%;
 	width: -webkit-calc(100% / 4);
 	width: calc(100% / 4);
@@ -227,14 +227,81 @@ body.concepts nav{ color:#666; }
 /*responsive*/
 
 
-@media only screen and (min-width: 768px) {
-    /* tablets and desktop */
+@media only screen and (max-width: 1440px) {
+
+	.sidebar{	width: 150px;	}
+	section.page .header{
+		height: 175px;
+		padding-left: 150px;
+	}
+	section.page .content{
+		padding-left: 150px;
+		padding-right: 150px;
+		overflow: none;
+	}
+	.nav-wrapper{
+		top: 175px;
+		left: 25px;
+	}	
+
 }
 
-@media only screen and (max-width: 767px) {
-    /* phones */
+@media only screen and (max-width: 1279px) {
+
+	.grid{	
+		width: 33%;
+		width: -webkit-calc(100% / 3);
+		width: calc(100% / 3);
+	}
+
 }
 
-@media only screen and (max-width: 767px) and (orientation: portrait) {
-    /* portrait phones */
+@media only screen and (max-width: 979px) {
+
+	section.page .header{
+		padding-right: 0;
+	}
+	section.page .content{
+		padding-right: 0;
+	}
+
+}
+
+@media only screen and (max-width: 768px) {
+
+	.sidebar{	width: 100px;	}
+	section.page .header{
+		height: 100px;
+		padding-left: 100px;
+	}
+	section.page .header .logo{ top: 30px; }	
+	section.page .content{
+		padding-left: 100px;
+		overflow: none;
+	}
+	.nav-wrapper{
+		top: 100px;
+		left: 10px;
+		width: 85px;
+	}
+	.grid{	
+		width: 50%;
+		width: -webkit-calc(100% / 2);
+		width: calc(100% / 2);
+	}	
+
+}
+
+
+@media only screen and (max-width: 480px) {
+	section.page .header{ height: 75px; }
+	section.page .header .logo{ top: 20px; }
+	.nav-wrapper{ top: 20px; }
+
+}
+
+@media only screen and (max-width: 420px) {
+	.grid{	
+		width: 100%;
+	}	
 }
