@@ -16,10 +16,10 @@ li{
 
 section.page{
 	position: relative;
-	height: 100%;
+	min-height: 100%;
 	width: 100%;
-	min-height: 800px;
 	z-index: 98;
+	padding-bottom: 200px;
 }
 
 	section.page .header{
@@ -37,7 +37,13 @@ section.page{
 	}
 
 	section.page .content{
-		margin-left: 200px;
+		padding-left: 200px;
+		padding-right: 200px;
+		overflow: none;
+	}
+
+	section.page.last{
+		padding-bottom: 0;
 	}
 
 #work{
@@ -54,6 +60,10 @@ section.page{
 
 #hacks{
 	background:#3f8fd8;
+}
+
+#hacks .logo path{
+	fill: #fff;
 }
 
 nav{
@@ -169,7 +179,53 @@ body.concepts nav{ color:#666; }
 	-o-transition-duration: .3s;
 }
 
-/*works-grid */
+.work-item.un-entered{
+	opacity: 0;
+	transform: translate(0,-1000px);
+	-ms-transform: translate(0,-1000px); /* IE 9 */
+	-webkit-transform: translate(0,-1000px); /* Safari and Chrome */
+
+}
+
+/*work-item element animation*/
+
+
+/*content-grid */
+
+.content>.gridholder{
+	font-size: 0;
+}
+
+.gridholder{
+	width: 100%;
+}
+
+.grid.quarter{
+	width: 25%;
+	width: -webkit-calc(100% / 4);
+	width: calc(100% / 4);
+	position: relative;
+	display: inline-block;
+}
+
+.work-item{
+	background:#eee;
+	padding-top: 75%;
+	margin: 0 15px 30px 15px;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s; /* Safari */	
+}
+
+
+
+.right-column{
+	width: 200px;
+	float:right;
+}
+
+/*responsive*/
+
+
 @media only screen and (min-width: 768px) {
     /* tablets and desktop */
 }

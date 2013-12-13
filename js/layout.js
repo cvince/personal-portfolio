@@ -1,5 +1,32 @@
 $(document).ready(function(){
 
+
+	//work entrance sequence
+	function workEnterSequencer(){
+
+
+		var callback;
+		var article = $('.work-holder .work-item');
+		var i = article.length;
+
+
+		console.log(article);
+
+		function callback () {
+		    if (i >= 0) {
+		        $(article[i]).removeClass('un-entered');
+
+		        i--;
+		        setTimeout(callback, 50);
+		    }
+		};
+
+		setTimeout(callback, 50);
+
+	}
+
+	workEnterSequencer();
+
 })
 
 function waypointer(targetID,classUp,classDown, correspondingNav){
