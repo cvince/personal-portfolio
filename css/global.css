@@ -20,11 +20,6 @@ section.page{
 	width: 100%;
 	min-height: 800px;
 	z-index: 98;
-	padding-bottom: 15%;
-}
-
-section.page.last{
-	padding-bottom: 0;
 }
 
 	section.page .header{
