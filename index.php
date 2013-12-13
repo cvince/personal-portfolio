@@ -14,7 +14,7 @@
 					<animate attributeName="r" from="12" to="4" dur="0.3s"></animate>					
 					<animate attributeName="cx" from="42" to="14" dur="0.5s"></animate>
 					<animate id="ani1" attributeName="cy" from="12" to="22" dur="0.5s"></animate>
-					<animate attributeName="cx" from="12" to="4" begin="ani1.end" dur="0.6s" values="14;10;8;4"></animate>
+					<animate attributeName="cx" from="12" to="4" begin="ani1.end" dur="0.6s" values="14;10;6;4"></animate>
 					<animate attributeName="cy" from="22" to="34" begin="ani1.end" dur="0.6s" values="22;34;30;34"></animate>					
 				</circle>
 
