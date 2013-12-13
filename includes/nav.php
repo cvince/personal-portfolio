@@ -5,10 +5,10 @@
 
 		<nav>
 			<ul>
-				<li id="#nav1" class="activated"><span>1</span>work</li>
-				<li id="#nav2"><span>2</span>about</li>
-				<li id="#nav3"><span>3</span>hacks</li>
-				<li id="#nav4"><span>4</span>concepts</li>					
+				<li id="nav1" class="activated"><a href="#work" class="scrollTo"><span>1</span>work</a></li>
+				<li id="nav2"><a href="#about" class="scrollTo"><span>2</span>about</a></li>
+				<li id="nav3"><a href="#hacks" class="scrollTo"><span>3</span>hacks</a></li>
+				<li id="nav4"><a href="#concepts" class="scrollTo"><span>4</span>concepts</a></li>					
 			</ul>
 		</nav>
 	</div>
