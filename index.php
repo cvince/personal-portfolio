@@ -11,9 +11,9 @@
 				 width="66.813px" height="40.313px" viewBox="0 0 66.813 40.313" enable-background="new 0 0 66.813 40.313" xml:space="preserve">
 			<g>
 				<circle r="4" cx="4" cy="34" fill="#000">
-					<animate attributeName="r" from="12" to="4" dur="0.3s"></animate>					
-					<animate attributeName="cx" from="42" to="14" dur="0.5s"></animate>
-					<animate id="ani1" attributeName="cy" from="12" to="22" dur="0.5s"></animate>
+					<animate attributeName="r" from="12" to="4" dur="0.1s"></animate>					
+					<animate attributeName="cx" from="42" to="14" dur="0.2s"></animate>
+					<animate id="ani1" attributeName="cy" from="12" to="22" dur="0.2s"></animate>
 					<animate attributeName="cx" from="12" to="4" begin="ani1.end" dur="0.6s" values="14;10;6;4"></animate>
 					<animate attributeName="cy" from="22" to="34" begin="ani1.end" dur="0.6s" values="22;34;30;34"></animate>					
 				</circle>

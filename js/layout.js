@@ -31,7 +31,7 @@ $(document).ready(function(){
 
 function waypointer(targetID,classUp,classDown, correspondingNav){
 
-	$(targetID).waypoint(function(direction){
+	$(targetID).waypoint({offset: 100, handler: function(direction){
 		if(direction == 'down'){
 			$(correspondingNav).addClass('activated');
 			console.log(correspondingNav+'activated');
@@ -40,7 +40,7 @@ function waypointer(targetID,classUp,classDown, correspondingNav){
 			$(correspondingNav).removeClass('activated');			
 			$('body').removeClass().addClass(classUp)
 		}
-	})
+	}	})
 
 }
 
