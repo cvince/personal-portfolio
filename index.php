@@ -15,4 +15,7 @@
 	<section id="hacks" class="page"></section>
 	<section id="concepts" class="page"></section>
 
+
+<?php include('includes/footer.php'); ?>
+
 </body>

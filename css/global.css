@@ -3,15 +3,23 @@
 	margin: 0;
 }
 
-body{
+body, html{
 	position: relative;
+	height: 100%;
+	font-family: 'Dosis', sans-serif;
 }
+
+li{
+	list-style: none;
+}
+
 
 section.page{
 	position: relative;
 	height: 100%;
 	width: 100%;
 	min-height: 800px;
+	z-index: 98;
 }
 
 #work{
@@ -22,37 +30,101 @@ section.page{
 	background:#272a2d;
 }
 
-
-nav{
-	background:#eee;
-	height: 100%;
+#hacks{
+	background:#3f8fd8;
 }
 
+nav{
+	height: 100%;
+	position: relative;
+}
+
+nav ul{
+	height: 100%;
+	margin-left: 20px;
+}
+
+nav ul li{
+	height: 25%;
+	position: relative;	
+}
+
+nav ul li span {
+	width: 100%;
+	margin-bottom: 0.5em;
+	margin-top: 0.3em;
+	display: block;
+}
+
+
+
 .sidebar{
-	width: 150px;
+	width: 200px;
 	height: 100%;
 	position: fixed;
+	z-index: 99;	
 }
 
 .nav-wrapper{
 	position: absolute;
 	top: 150px;
 	left: 50px;
-	width: 80px;
-	height: 200px;
+	width: 150px;
+	height: 300px;
+	border-left: 5px solid;
 }
 
 .nav-progress{
 	width: 5px;
 	position: absolute;
-	left: 0;
+	left: -5px;
 	top: 0;
 }
 
-body.work .nav-progress {
-	background:#000;
-	height: 20%;
-}
+
+/*sidebars*/
+
+/*work*/
+body.work .nav-progress {background:#000; height: 17%; }
+body.work .sidebar {background: #fff; }
+
+body.work .nav-wrapper{ border-color: #ddd;}
+
+body.work nav .activated {color:#000;}
+body.work nav{ color:#666; }
+
+
+/*about*/
+body.about .nav-progress {background:#fff; height: 43%; }
+body.about .sidebar {background: #272a2d; }
+
+body.about .nav-wrapper{ border-color: rgba(255,255,255,0.3); }
+
+body.about nav .activated {color:#fff;}
+body.about nav{ color:rgba(255,255,255,0.6); }
+
+/*hacks*/
+body.hacks .nav-progress {background:#fff; height: 70%; }
+body.hacks .sidebar {background: #3f8fd8; }
+
+body.hacks .nav-wrapper{ border-color: rgba(255,255,255,0.3); }
+
+body.hacks nav .activated {color:#fff;}
+body.hacks nav{ color:rgba(255,255,255,0.6); }
+
+/*concepts*/
+body.concepts .nav-progress {background:#000; height: 100%; }
+body.concepts .sidebar {background: #eee; }
+
+body.concepts .nav-wrapper{ border-color: #ddd;}
+
+body.concepts nav .activated {color:#000;}
+body.concepts nav{ color:#666; }
+
+
+
+
+
 
 
 /*animations */
@@ -66,4 +138,17 @@ body.work .nav-progress {
 	-moz-transition-duration: .3s;
 	-webkit-transition-duration: .3s;
 	-o-transition-duration: .3s;
+}
+
+/*works-grid */
+@media only screen and (min-width: 768px) {
+    /* tablets and desktop */
+}
+
+@media only screen and (max-width: 767px) {
+    /* phones */
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    /* portrait phones */
 }
