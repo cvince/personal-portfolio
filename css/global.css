@@ -156,7 +156,6 @@ body.concepts nav{ color:#666; }
 
 
 
-
 /*animations */
 
 .ani{
@@ -181,4 +180,14 @@ body.concepts nav{ color:#666; }
 
 @media only screen and (max-width: 767px) and (orientation: portrait) {
     /* portrait phones */
+}
+
+/*demo only*/
+
+.column-full{
+	padding-right: 20px;
+}
+
+.column-full img{
+	width: 100%;
 }

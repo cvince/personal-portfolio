@@ -30,7 +30,9 @@
 			</div>
 		</div>
 		<div class="content">
-
+			<div class="column-full">
+				<img src="img/siteDemo1.jpg">
+			</div>
 		</div>
 
 
@@ -65,7 +67,13 @@
 				</svg>
 			</div>
 		</div>
-
+		<div class="content">
+			<div class="content">
+				<div class="column-full">
+					<img src="img/siteDemo.png">
+				</div>
+			</div>
+		</div>
 
 	</section>
 	<section id="hacks" class="page">
@@ -95,7 +103,7 @@
 				</svg>
 			</div>
 		</div>
-
+		<div class="content"></div>
 
 	</section>
 	<section id="concepts" class="page last">
