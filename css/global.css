@@ -44,6 +44,10 @@ section.page{
 	background:#fff;
 }
 
+#about .logo path{
+	fill: #fff;
+}
+
 #about{
 	background:#272a2d;
 }
