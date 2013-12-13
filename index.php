@@ -9,15 +9,14 @@
 		<a href="#work" class="logo">
 			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 				 width="66.813px" height="40.313px" viewBox="0 0 66.813 40.313" enable-background="new 0 0 66.813 40.313" xml:space="preserve">
-			<g>
 				<circle r="4" cx="4" cy="34" fill="#000">
 					<animate attributeName="r" from="12" to="4" dur="0.1s"></animate>					
 					<animate attributeName="cx" from="42" to="14" dur="0.2s"></animate>
 					<animate id="ani1" attributeName="cy" from="12" to="22" dur="0.2s"></animate>
-					<animate attributeName="cx" from="12" to="4" begin="ani1.end" dur="0.6s" values="14;10;6;4"></animate>
-					<animate attributeName="cy" from="22" to="34" begin="ani1.end" dur="0.6s" values="22;34;30;34"></animate>					
-				</circle>
-
+					<animate attributeName="cx" begin="0.2s" dur="0.6s" values="14;10;6;4" repeatCount="1"></animate>
+					<animate attributeName="cy" begin="0.2s" dur="0.6s" values="22;34;30;34" repeatCount="1"></animate>					
+				</circle>				 
+			<g>
 				<path d="M9.848,4.423c0-0.751,0.432-1.379,1.297-1.885c0.865-0.506,1.771-0.759,2.718-0.759c1.208,0,1.926,0.424,2.155,1.273
 					l7.493,26.542l7.443-26.542c0.228-0.849,0.947-1.273,2.155-1.273c0.914,0,1.812,0.262,2.693,0.783
 					c0.881,0.523,1.322,1.144,1.322,1.861c0,0.066-0.033,0.229-0.098,0.49l-9.403,30.803c-0.196,0.687-0.685,1.217-1.469,1.591
@@ -39,41 +38,41 @@
 	<div class="content">
 		<div class="gridholder work-holder">
 			<div class="grid quarter">
-				<div class="work-item un-entered"></div>
+				<div class="work-item un-entered" style="background-image: url('img/eubc.jpg')"></div>
 			</div>
 			<div class="grid quarter">
-				<div class="work-item un-entered"></div>
+				<div class="work-item un-entered" style="background-image: url('img/appannie.jpg')"></div>
 			</div>
 			<div class="grid quarter">
-				<div class="work-item un-entered"></div>
+				<div class="work-item un-entered" style="background-image: url('img/sauder.png')"></div>
 			</div>
 			<div class="grid quarter">
-				<div class="work-item un-entered"></div>
-			</div>
-			<div class="grid quarter">
-				<div class="work-item un-entered"></div>
+				<div class="work-item un-entered" style="background-image: url('img/duohelica.png')"></div>
 			</div>	
 			<div class="grid quarter">
-				<div class="work-item un-entered"></div>
+				<div class="work-item un-entered" style="background-image: url('img/moappi.jpg')"></div>
+			</div>					
+			<div class="grid quarter">
+				<div class="work-item un-entered" style="background-image: url('img/fidelity.jpg')"></div>
+			</div>	
+			<div class="grid quarter">			
+				<div class="work-item un-entered" style="background-image: url('img/abigaila.jpg')"></div>
 			</div>	
 			<div class="grid quarter">
-				<div class="work-item un-entered"></div>
+				<div class="work-item un-entered" style="background-image: url('img/suncentral.jpg')"></div>
 			</div>	
 			<div class="grid quarter">
-				<div class="work-item un-entered"></div>
+				<div class="work-item un-entered" style="background-image: url('img/ideahack.jpg')"></div>
+			</div>	
+			<div class="grid quarter">
+				<div class="work-item un-entered" style="background-image: url('img/clearink.jpg')"></div>
 			</div>																		
 			<div class="grid quarter">
-				<div class="work-item un-entered"></div>
+				<div class="work-item un-entered" style="background-image: url('img/silverLine.png')"></div>
 			</div>	
 			<div class="grid quarter">
-				<div class="work-item un-entered"></div>
+				<div class="work-item un-entered" style="background-image: url('img/ubcfc.png')"></div>
 			</div>	
-			<div class="grid quarter">
-				<div class="work-item un-entered"></div>
-			</div>	
-			<div class="grid quarter">
-				<div class="work-item un-entered"></div>
-			</div>			
 		</div>
 	</div>
 

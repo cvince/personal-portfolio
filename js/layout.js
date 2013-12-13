@@ -9,9 +9,6 @@ $(document).ready(function(){
 		var article = $('.work-holder .work-item');
 		var i = article.length;
 
-
-		console.log(article);
-
 		function callback () {
 		    if (i >= 0) {
 		        $(article[i]).removeClass('un-entered');
