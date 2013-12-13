@@ -32,6 +32,7 @@
 		<div class="content">
 			<div class="column-full">
 				<img src="img/siteDemo1.jpg">
+				<div class="clear"></div>
 			</div>
 		</div>
 
@@ -68,10 +69,8 @@
 			</div>
 		</div>
 		<div class="content">
-			<div class="content">
-				<div class="column-full">
-					<img src="img/siteDemo.png">
-				</div>
+			<div class="column-full">
+				<img src="img/siteDemo.png">
 			</div>
 		</div>
 

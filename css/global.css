@@ -20,7 +20,6 @@ section.page{
 	width: 100%;
 	min-height: 800px;
 	z-index: 98;
-	padding-bottom: 15%;
 }
 
 section.page.last{
@@ -55,6 +54,10 @@ section.page.last{
 
 #hacks{
 	background:#3f8fd8;
+}
+
+.clear{
+	clear: both;
 }
 
 nav{
