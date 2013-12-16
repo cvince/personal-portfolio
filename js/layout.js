@@ -41,6 +41,15 @@ function waypointer(targetID,classUp,classDown, correspondingNav){
 
 }
 
+$.prototype.wait = function( ms, callback ) {
+    return this.each(function() {
+        window.setTimeout((function( self ) {
+            return function() {
+                callback.call( self );
+            }
+        }( this )), ms );
+    });
+};
 // $('#about').waypoint(function(direction) {
 // 	if(direction=='down'){
 // 		$('body').removeClass().addClass('about')
@@ -48,6 +57,19 @@ function waypointer(targetID,classUp,classDown, correspondingNav){
 // 		$('body').removeClass().addClass('work')
 // 	}
 // });
+
+$('.case-link').click(function(event){
+	(event.preventDefault) ? event.preventDefault() : event.returnValue = false;	
+	$('#case-study-article').removeClass('hidden closed').addClass('slideLeft');
+})
+
+$('.close-case').click(function(event){
+	(event.preventDefault) ? event.preventDefault() : event.returnValue = false;
+	$('#case-study-article').removeClass('slideLeft').addClass('ani').addClass('closed').wait(1000, function() {
+	    $(this).addClass('hidden').removeClass('ani');
+	});	
+
+});
 
 waypointer('#about','work','about','#nav2');
 waypointer('#hacks','about','hacks', '#nav3');
