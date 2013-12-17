@@ -3,7 +3,7 @@
 		<div class="case-description">
 		<h1>Entrepreneurship @ UBC</h1>			
 			<p>
-			Entrepreneurship @ UBC is the first entrepreneurship program of its kind in British Columbia. It links students and world-leading research, with the entrepreneurship ecosystem surrounding Western Canada, and an investor and mentorship network that spans the entire world. They needed a web strategy that communicated e@UBC's core messages in a way that alluded to the program's progressive nature. I designed and developed a website that included the allure of a sales site, and the practicality of an educational site.
+			Entrepreneurship @ UBC is the first entrepreneurship program of its kind in British Columbia. It links students and world-leading research, with the entrepreneurship ecosystem surrounding Western Canada, and an investor and mentorship network that spans the entire world. They needed a web strategy that communicated e@UBC's core messages in a way that alluded to the program's progressive nature.
 			</p>
 			<!-- <p>
 			My contribution e@UBC was multifaceted.
@@ -30,16 +30,15 @@
 
 	<div class="grid half">
 		<div class="img-holder">
-			<img src="../../work/eubc/img/eubc1a.png">
+			<img src="<?php echo ROOT; ?>/work/eubc/img/eubc1a.png">
 		</div>
 	</div><div class="grid half">
 		<div class="img-holder">
-			<img src="../../work/eubc/img/eubc1b.png">
+			<img src="<?php echo ROOT; ?>/work/eubc/img/eubc1b.png">
 		</div>	
 	</div><div class="grid full">
 		<div class="img-holder">
-			<img src="../../work/eubc/img/eubc2.png">
+			<img src="<?php echo ROOT; ?>/work/eubc/img/eubc2.png">
 		</div>
-		<a href="/" class="bottom-cta">Back to My Works</a>		
 	</div>
 </div>

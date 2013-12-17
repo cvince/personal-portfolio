@@ -11,8 +11,8 @@ body, html{
 
 body.noScroll{
 	width:100%;
-	padding-right:15px;
 	overflow:hidden;
+	margin-left: -100%;
 }
 
 li{
@@ -99,6 +99,27 @@ nav a{
 	text-decoration: none;
 }
 
+
+/*page elements*/
+
+
+.button-link{
+	line-height: 30px;
+	font-size: 18px;
+	padding: 0 10px;
+	display: inline-block;
+	border-radius: 3px;
+	text-decoration: none;
+}
+
+	.button-link.black{background:#000; color:#fff;}	.button-link.black:hover{background:#fff; color:#000;}
+
+/*positioning*/
+
+.pull-right{
+	position: relative;
+	float: right;
+}
 
 
 .sidebar{
@@ -203,7 +224,8 @@ body.concepts nav{ color:#666; }
 	animation-timing-function: ease-in;	
 	-webkit-animation-timing-function: ease-in;		
 
-	visibility: visible !important;	
+	visibility: visible !important;
+	margin-left: -10px;
 }
 
 @keyframes slideLeft {
@@ -255,8 +277,33 @@ body.concepts nav{ color:#666; }
 	display: inline-block;
 }
 
+.grid.third{
+	width: 32%;
+	float: left;	
+}
+
+.grid.two-third{
+	width: 66%;
+	float: left;
+}
+
+.grid.quarter{
+	width: 25%;
+	float: left;
+}
+
+.grid.fifth{
+	width: 20%;
+	float: left;
+}
+
 .grid.half{
 	width: 50%;
+	float: left;
+}
+
+.grid.full{
+	width: 100%;
 }
 
 figure.work-item{
@@ -334,7 +381,6 @@ figure.work-item figcaption p{
 
 
 /*articles*/
-
 article{
 	position: fixed;
 	z-index: 200;
@@ -344,19 +390,75 @@ article{
 	left: 0;
 	background: #ff0;
 	border-left: solid 10px #000;
-	overflow-y: scroll;
+}
+
+article.scrollable{
+	overflow-y: scroll;	
 }
 
 article h1{
-	font-size: 48px;
+	font-size: 36px;
 }
 
-article section{
-	margin-left: -10px;
+article .case-meta h3{
+	font-size: 36px;
 }
 
-article .case-meta{
+article .case-meta ul{
+	margin: 10px 0;
+}
 
+article .case-description p{
+	font-size: 18px;
+	margin: 10px 0;
+}
+
+article .case-description{
+	margin-right: 20px;
+	border-right:  1px solid #000;
+	padding-right: 20px;
+}
+
+article .case-content{
+	margin: 40px 0;
+	float: right;
+	text-align: center;	
+}
+
+article p a{
+	color: #000;
+	text-decoration: underline;
+}
+
+article p a:hover{
+	color:#3f8fd8;
+}
+
+article .img-holder{
+	background:#fff;
+	padding: 10px;
+	margin: 0 20px 20px 0;
+}
+
+article .img-holder img{
+	width: 100%;
+	display: block;
+}
+
+.bottom-cta{
+	line-height: 48px;
+	background: #000;
+	padding: 0 10px;
+	font-size: 24px;
+	margin: 20px 0;
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+}
+
+.bottom-cta:hover{
+	background:#fff;
+	color:#000;
 }
 
 #case-content{
@@ -376,7 +478,7 @@ article .case-meta{
 }
 
 #case-study-article.open{
-	left: 0;
+	left: -10px;
 }
 
 .close-button{
@@ -469,7 +571,17 @@ article .case-meta{
 		left: 10px;
 		width: 85px;
 	}
-	.grid{	
+
+	.grid.two-third,
+	.grid.half,
+	.grid.third,
+	.grid.quarter,
+	.grid.fifth{
+		width: 100%;
+	}
+
+	.grid
+	{	
 		width: 50%;
 		width: -webkit-calc(100% / 2);
 		width: calc(100% / 2);
@@ -486,7 +598,12 @@ article .case-meta{
 }
 
 @media only screen and (max-width: 420px) {
-	.grid{	
+	.grid,
+	.grid.two-third,
+	.grid.half,
+	.grid.third,
+	.grid.quarter,
+	.grid.fifth{	
 		width: 100%;
 	}	
 }

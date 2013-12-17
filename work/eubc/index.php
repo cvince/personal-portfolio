@@ -1,7 +1,7 @@
 <?php include('../../config.php'); ?>
 <link href='<?php echo ROOT.'css/global.css'?>' rel='stylesheet' type='text/css'>
 
-<article id="case-study-article" class="open">
+<article id="case-study-article" class="open scrollable">
 	<div id="close-bar"></div>
 	<section class="page">
 	<div class="header">
