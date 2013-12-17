@@ -35,6 +35,8 @@
 		</a>
 
 	</div>
+
+
 	<div class="content">
 		<div class="gridholder work-holder">
 			<div class="grid">
@@ -49,7 +51,7 @@
 			</div><div class="grid">
 				<figure class="work-item un-entered" style="background-image: url('img/appannie.jpg')">
 					<figcaption>
-						<a class="case-link" href="work/eubc">						
+						<a class="case-link" href="work/appannie">						
 							<h2>App Annie</h2>
 							<p>Branding, Content Marketing, Campaigns</p>
 						</a>
@@ -248,9 +250,6 @@
 		</a>
 
 	</div>
-	<div class="content">
-
-	</div>
 	</section>
 
 
@@ -300,6 +299,10 @@
 		</a>
 
 	</div>
+	<div id="case-content" class="content">
+
+	</div>
+
 	</section>
 </article>
 

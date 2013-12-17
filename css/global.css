@@ -249,6 +249,10 @@ body.concepts nav{ color:#666; }
 	display: inline-block;
 }
 
+.grid.half{
+	width: 50%;
+}
+
 figure.work-item{
 	background:#eee;
 	margin: 0 15px 30px 15px;
