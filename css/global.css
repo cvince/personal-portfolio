@@ -9,6 +9,12 @@ body, html{
 	font-family: 'Dosis', sans-serif;
 }
 
+body.noScroll{
+	width:100%;
+	padding-right:15px;
+	overflow:hidden;
+}
+
 li{
 	list-style: none;
 }
@@ -279,11 +285,14 @@ figure.work-item figcaption{
 }
 
 figure.work-item figcaption a{
-	top: 50%;
-	display: block;
-	position: relative;
+	position: absolute;
 	text-decoration: none;
 	color:inherit;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
 }
 
 figure.work-item figcaption a:hover{
@@ -295,14 +304,15 @@ figure.work-item figcaption h2{
 	font-size: 21px;
 	line-height: 24px;
 	margin-top: -24px;
-	position: relative;
+	position: absolute;
+	width: 100%;
 }
 
 figure.work-item figcaption p{
+	width: 100%;
 	top: 50%;
 	line-height: 14px;
-	margin: 0 10px;
-	position: relative;
+	position: absolute;
 	margin-top: 5px;
 }
 
@@ -329,11 +339,32 @@ article{
 	position: fixed;
 	z-index: 200;
 	width: 100%;
-	min-height: 100%;
+	height: 100%;
 	top: 0;
 	left: 0;
 	background: #ff0;
-	outline: solid 10px #000;
+	border-left: solid 10px #000;
+	overflow-y: scroll;
+}
+
+article h1{
+	font-size: 48px;
+}
+
+article section{
+	margin-left: -10px;
+}
+
+article .case-meta{
+
+}
+
+#case-content{
+	margin-left: 20px;
+}
+
+#huge{
+	height: 9999px;
 }
 
 #case-study-article.hidden{
@@ -352,10 +383,10 @@ article{
 	display: inline-block;
 	line-height: 10px;
 	padding: 0 10px;
-	position: absolute;
+	position: fixed;
 	top: 20px;
 	right: 20px;
-	color:#000;	
+	color:#000;
 }
 
 .close-button span {
@@ -407,6 +438,10 @@ article{
 }
 
 @media only screen and (max-width: 979px) {
+
+	figure.work-item figcaption h2{
+		font-size: 18px;
+	}
 
 	section.page .header{
 		padding-right: 0;
