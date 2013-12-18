@@ -388,7 +388,7 @@ article{
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: #ff0;
+	background: #eee;
 	border-left: solid 10px #000;
 }
 
@@ -436,13 +436,18 @@ article p a:hover{
 
 article .img-holder{
 	background:#fff;
-	padding: 10px;
 	margin: 0 20px 20px 0;
+	box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
 }
 
 article .img-holder img{
 	width: 100%;
 	display: block;
+}
+
+article .iframe-holder{
+	width: 100%;
+	padding-bottom: 51%;
 }
 
 .bottom-cta{
@@ -552,6 +557,10 @@ article .img-holder img{
 		padding-right: 0;
 	}
 
+	article .case-description p, article ul li{
+		font-size: 14px;
+	}	
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -586,6 +595,11 @@ article .img-holder img{
 		width: -webkit-calc(100% / 2);
 		width: calc(100% / 2);
 	}	
+
+	article .case-description{
+		border-right: none;
+		border-bottom: 1px solid #000;
+	}
 
 }
 

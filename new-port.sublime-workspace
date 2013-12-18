@@ -51,6 +51,65 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "work/eubc/case.html",
+			"settings":
+			{
+				"buffer_size": 2020,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "work/appannie/case.html",
+			"settings":
+			{
+				"buffer_size": 1668,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<div class=\"grid two-third\">\n	<div class=\"case-description\">\n		<h1>Sauder School of Business</h1>\n		<p>The Sauder School of Business was my first major engagement. In 2011, they wanted to showcase a revamped MBA program centered around modern themes such as Creativity, Global Thinking, and Innovation. I proposed an interactive narrative which eventually became the UBC MBA Experience, this project is now a centrepiece within the UBC MBA recruitment process. The goal of the project was for the recruitment team to have something to point to and say “That’s our program. Feel free to explore”, and this vision has now been fulfilled.\n\nEver since the UBC MBA Experience was launched, I have conceived and developed further communications pieces for converting admitted students to accept their admittance. The welcome to Sauder B.Com and UBC MBA Welcome landing pages are the ones I developed for the UBC MBA program, as well as Sauder’s prestigious Bachelor of Commerce undergraduate program.</p>\n	</div>\n</div>\n<div class=\"grid fifth case-meta\">\n	<h3>Deliverables</h3>\n	<ul>\n		<li>Web Strategy</li>\n		<li>Information Architecture</li>\n		<li>Design</li>\n		<li>Development (HTML/CSS/js)</li>\n		<li>Print</li>\n		<li>Campaigns</li>\n	</ul>\n	<a href=\"http://ubcmbawelcome.com/\" target=\"_blank\" class=\"button-link black\">Go To Website</a>\n</div>\n<div class=\"case-content\">\n\n	<div class=\"grid half\">\n		<div class=\"img-holder\">\n			<img src=\"../../work/sauder/img/aa1.png\">\n		</div>\n	</div><div class=\"grid half\">\n		<div class=\"img-holder\">\n			<img src=\"../../work/sauder/img/aa2.png\">\n		</div>	\n	</div><div class=\"grid full\">\n		<div class=\"img-holder\">\n			<img src=\"../../work/sauder/img/booth.jpg\">\n		</div>\n\n		<a href=\"/\" class=\"bottom-cta\">Back to My Works</a>\n\n	</div>\n\n<!-- 	<div class=\"grid half\">\n		<div class=\"img-holder\"><img src=\"../../work/appannie/img/aa3.jpg\"></div>\n	</div> -->\n\n</div>",
+			"file": "work/sauder/case.html",
+			"file_size": 1094,
+			"file_write_time": 130318258348710472,
+			"settings":
+			{
+				"buffer_size": 1893,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "config.php",
+			"settings":
+			{
+				"buffer_size": 78,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/global.css",
+			"settings":
+			{
+				"buffer_size": 8623,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/layout.js",
+			"settings":
+			{
+				"buffer_size": 1201,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/func.js",
+			"settings":
+			{
+				"buffer_size": 1233,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "Packages/JSHint/JSHint.sublime-build",
 	"command_palette":
@@ -132,6 +191,33 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/newportfolio/work/eubc/index.php",
+		"/C/xampp/htdocs/newportfolio/work/appannie/index.php",
+		"/C/xampp/htdocs/newportfolio/work/index.php",
+		"/C/xampp/htdocs/newportfolio/includes/header.php",
+		"/C/xampp/htdocs/newportfolio/includes/nav.php",
+		"/C/xampp/htdocs/newportfolio/index.php",
+		"/C/xampp/htdocs/newportfolio/includes/footer.php",
+		"/C/xampp/htdocs/newportfolio/work/eubc/case.php",
+		"/C/xampp/htdocs/newportfolio/controller.php",
+		"/C/xampp/htdocs/newportfolio/config.php",
+		"/C/xampp/htdocs/newportfolio/js/layout.js",
+		"/C/xampp/htdocs/newportfolio/js/func.js",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/config.php",
+		"/C/xampp/htdocs/newportfolio/work/eubc/case.html",
+		"/C/xampp/htdocs/newportfolio/work/ubcfc/index.php",
+		"/C/xampp/htdocs/newportfolio/work/appannie/case.html",
+		"/C/xampp/htdocs/newportfolio/work/duohelica/case.html",
+		"/C/Users/Vince/Desktop/newportfolio/closeButton.svg",
+		"/C/xampp/htdocs/newportfolio/js/func.php",
+		"/C/xampp/htdocs/newportfolio/.gitignore",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/footer.php",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/index.php",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/global.css",
+		"/C/Users/Vince/Desktop/newportfolio/mylogo2.svg",
+		"/C/Users/Vince/Desktop/newportfolio/mylogo.svg",
+		"/C/Users/Vince/Desktop/newportfolio/smooth-scroll-master/smooth-scroll-master/smooth-scroll.js",
+		"/C/xampp/htdocs/newportfolio/header.php",
 		"/C/xampp/htdocs/moappibi/0.3/js/demo.js",
 		"/C/xampp/htdocs/moappibi/0.3/js/transforms.js",
 		"/C/Users/Vince/.ssh/id_rsa.pub",
@@ -232,34 +318,7 @@
 		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/.viminfo",
 		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/.bash_history",
 		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/RPM-GPG-KEY.art.txt",
-		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/games.zip",
-		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/template-home",
-		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/template-about.php",
-		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/index.php",
-		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/image.php",
-		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/functions.php",
-		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/content-page.php",
-		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/content-image.php",
-		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/content-gallery.php",
-		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/content-aside.php",
-		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/comments.php",
-		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/category.php",
-		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/author.php",
-		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/archive.php",
-		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/404.php",
-		"/C/Users/Vince/Desktop/ubcmbawelcome/web/index.html",
-		"/C/Users/Vince/Desktop/ubcmbawelcome/web/css/lt-ie9.css",
-		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/wp-config.php",
-		"/C/Users/Vince/Desktop/ubcmbawelcome/web/css/main.css",
-		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/layout.css",
-		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/style.css",
-		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/base.css",
-		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/custom.css",
-		"/C/Users/Vince/Downloads/_b8f4e085df4ff906f5454de0f9fa1143.html",
-		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/index 2.html",
-		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/.htaccess 2",
-		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/config",
-		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/post-commit.sample"
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/games.zip"
 	],
 	"find":
 	{
@@ -278,6 +337,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"bottom-cta",
+			".php",
+			"case.html",
+			".img-holder",
+			".button",
+			"third",
+			"img-holder",
+			"un-en",
+			".content",
 			".logo",
 			".button",
 			".hero-box",
@@ -396,16 +464,7 @@
 			"start",
 			"1000ms",
 			"start",
-			"complete",
-			"pagination",
-			"display",
-			"_setactive",
-			"margin",
-			"resize",
-			"videobg",
-			"$(window",
-			"resize",
-			"width"
+			"complete"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -427,13 +486,206 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "work/eubc/case.html",
+					"settings":
+					{
+						"buffer_size": 2020,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2003,
+								2003
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "work/appannie/case.html",
+					"settings":
+					{
+						"buffer_size": 1668,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1668,
+								1111
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "work/sauder/case.html",
+					"settings":
+					{
+						"buffer_size": 1893,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								367,
+								385
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		},
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 3,
+					"file": "config.php",
+					"settings":
+					{
+						"buffer_size": 78,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								38,
+								38
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/global.css",
+					"settings":
+					{
+						"buffer_size": 8623,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6168,
+								6168
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5064.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "js/layout.js",
+					"settings":
+					{
+						"buffer_size": 1201,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "js/func.js",
+					"settings":
+					{
+						"buffer_size": 1233,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1080,
+								1080
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -465,7 +717,7 @@
 		"cols":
 		[
 			0.0,
-			0.526799590509,
+			0.5,
 			1.0
 		],
 		"rows":
