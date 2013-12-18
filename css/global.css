@@ -320,7 +320,7 @@ figure.work-item{
 
 figure.work-item figcaption{
 	opacity: 0;
-	background: #ffff00;
+	background: rgba(255,255,0,0.9);
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -434,7 +434,7 @@ article p a:hover{
 	color:#3f8fd8;
 }
 
-article .img-holder{
+article .img-holder, article .iframe-holder{
 	background:#fff;
 	margin: 0 20px 20px 0;
 	box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
@@ -446,8 +446,15 @@ article .img-holder img{
 }
 
 article .iframe-holder{
+	padding-bottom: 65%;
+	height: 0;
+	position: relative;
+}
+
+article .iframe-holder iframe{
 	width: 100%;
-	padding-bottom: 51%;
+	height: 100%;
+	border: 0;
 }
 
 .bottom-cta{
@@ -542,13 +549,13 @@ article .iframe-holder{
 		width: calc(100% / 3);
 	}
 
-}
-
-@media only screen and (max-width: 979px) {
-
 	figure.work-item figcaption h2{
 		font-size: 18px;
 	}
+
+}
+
+@media only screen and (max-width: 979px) {
 
 	section.page .header{
 		padding-right: 0;

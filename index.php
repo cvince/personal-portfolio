@@ -94,14 +94,14 @@
 	<div class="content">
 		<div class="gridholder work-holder">
 			<div class="grid">
-				<figure class="work-item un-entered" style="background-image: url('img/eubc.jpg')">
+				<figure class="work-item un-entered" style="background-image: url('img/sauder.png')">
 					<figcaption>
-						<a class="case-link" href="work/eubc">
-							<h2>Entrepreneurship@UBC</h2>
-							<p>Web Strategy, Design, Wordpress</p>
+						<a class="case-link" href="work/sauder">
+							<h2>Sauder School of Business</h2>
+							<p>Web Strategy, Design, Development, Promotion, Print</p>
 						</a>
 					</figcaption>
-				</figure>
+				</figure>				
 			</div><div class="grid">
 				<figure class="work-item un-entered" style="background-image: url('img/appannie.jpg')">
 					<figcaption>
@@ -112,11 +112,12 @@
 					</figcaption>
 				</figure>
 			</div><div class="grid">
-				<figure class="work-item un-entered" style="background-image: url('img/sauder.png')">
+				<figure class="work-item un-entered" style="background-image: url('img/eubc.jpg')">
+
 					<figcaption>
-						<a class="case-link" href="work/sauder">
-							<h2>Sauder School of Business</h2>
-							<p>Web Strategy, Design, Development, Promotion, Print</p>
+						<a class="case-link" href="work/eubc">
+							<h2>Entrepreneurship@UBC</h2>
+							<p>Web Strategy, Design, Wordpress</p>
 						</a>
 					</figcaption>
 				</figure>
