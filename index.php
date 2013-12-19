@@ -144,7 +144,7 @@
 					<figcaption>
 						<a class="case-link" href="work/fidelity">
 							<h2>Fidelity Denim</h2>
-							<p>Web Strategy</p>
+							<p>Design, Development, Web Strategy</p>
 						</a>
 					</figcaption>
 				</figure>
