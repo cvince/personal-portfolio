@@ -238,7 +238,54 @@
 
 	</div>
 	<div class="content">
+		<div class="grid half">
+			<div id="about-visual-holder" class="lt-480-hide unresolved ani slow">
+				<img src="img/brains.svg">
+				<span>
+				I have a natural right brain
+				and a <u class="hover-pop" href="#">well-trained<div id="pop-in" class="ani">B.ASc Environmental Engineering, 2011, UBC</div></u> left brain
+				</span>
+			</div>
+		</div><div class="grid third">
+			<div class="about-content unresolved ani slow">
+				<h1>About Me</h1>
+				<p>
+					My name is Vincent Chan. I am a designer, wannabe front-end developer, entrepreneur, and co-founder of <a href="http://www.ideahack.com" target="_blank">Ideahack Creative</a>. 
+					<br><br>
+					I combine both my right and left brain in the form of design, business strategy, and web development to provide clients with comprehensive solutions for their product and business problems.
+				</p>
 
+				<div id="skill-stack">
+					<h2>My Skill Stack</h2>
+					<ul>
+						<li>HTML5<div class="gaugeholder"><div class="gauge-indicator unresolved" style="width: 85%;"></div></div></li>
+						<li>CSS3<div class="gaugeholder"><div class="gauge-indicator unresolved" style="width: 95%;"></div></div></li>					
+						<li>Javascript<div class="gaugeholder"><div class="gauge-indicator unresolved" style="width: 60%;"></div></div></li>
+						<li>jQuery<div class="gaugeholder"><div class="gauge-indicator unresolved" style="width: 70%;"></div></div></li>
+						<li>PHP<div class="gaugeholder"><div class="gauge-indicator unresolved" style="width: 15%;"></div></div></li>
+						<li id="cs"><span id="a-ai">Ai</span> <span id="a-ps">Ps</span> <span id="a-id">Id</span> <span id="a-fl">Fl</span> <span id="a-pr">Pr</span> <span id="a-dw">Dw</span><div class="gaugeholder rd"><div class="ridiculous gauge-indicator unresolved"></div></div></li>
+						<li>git &amp; unix<div class="gaugeholder"><div class="gauge-indicator unresolved" style="width: 55%;"></div></div></li>
+					</ul>
+				</div>
+
+				<div id="ideologies">
+					<h2>My Ideologies</h2>
+					<p>Lean, hacker, mobile-first, responsive, <a href="http://www.usabilitycounts.com/2013/07/24/the-unicorn-designer-dilemma-and-how-to-avoid-it/">unicorns</a>, one-man startups</p>
+
+					<br><br>
+
+					<table>
+						<tr><td>greet me</td><td><zhx class="t0-0t">vinc</zhx><u>ent@</u><u>vin</u><u>cent<efw class="t0-0t">cha</u><u>n.vc</u></efw></td></tr>
+						<tr><td>fork me</td><td><a href="http://github.com/cvince" target="_blank">cvince</a></td></tr>
+						<tr><td>follow me</td><td><a href="http://twitter.com/cvince86" target="_blank">cvince86</a></td></tr>
+						<tr><td>stalk me</td><td><a href="http://facebook.com/chang.hui.chan" target="_blank">chang.hui.chan</a></td></tr>
+						<tr><td>link me</td><td><a href="http://ca.linkedin.com/pub/vincent-chan/b/287/511" target="_blank">33522205</a></td></tr>
+						<tr><td>meet me</td><td><a href="http://ideahack.com/contact/">at the ideahack office</a></td></tr>																					
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
 	</div>
 	</section>
 
@@ -272,7 +319,12 @@
 
 	</div>
 	<div class="content">
-
+		<div class="hack-content">
+			<div class="grid two-third hack-item"><h2>Locksmasher</h2><p>Facebook University Hackathon 2012</p></div>
+			<div class="grid two-third hack-item"><h2>SchoolZone</h2><p>Vancouver Open-Data Hackathon</p></div>
+			<div class="grid two-third hack-item"><h2>iSnooze</h2><p>Mozilla Mobile Hackathon 2012</p></div>
+			<div class="grid two-third hack-item"><h2>Febble</h2><p>Official Facebook Hackathon 2012</p></div>
+		</div>
 	</div>
 	</section>
 
@@ -311,3 +363,15 @@
 <?php include('includes/footer.php'); ?>
 
 </body>
+
+
+<!--[if lt IE 9]>
+<div id="ie8">
+	<span>IE8 detected</span>
+	<p>This website uses .svg extensively, which is not supported by your browser. Please use a more current browser like the one below:</p>
+	<br>
+	<p><a href="https://www.google.com/intl/en/chrome/browser/">Google Chrome</a></p>
+	<br>
+	<p>Sorry for the inconvenience.</p>
+</div>
+<![endif]-->

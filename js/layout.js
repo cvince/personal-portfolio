@@ -26,9 +26,9 @@ $(document).ready(function(){
 
 })
 
-function waypointer(targetID,classUp,classDown, correspondingNav){
+function navWaypointer(targetID,classUp,classDown, correspondingNav){
 
-	$(targetID).waypoint({offset: 10, handler: function(direction){
+	$(targetID).waypoint({offset: 200, handler: function(direction){
 		if(direction == 'down'){
 			$(correspondingNav).addClass('activated');
 			console.log(correspondingNav+'activated');
@@ -50,6 +50,14 @@ function waypointer(targetID,classUp,classDown, correspondingNav){
 // 	}
 // });
 
-waypointer('#about','work','about','#nav2');
-waypointer('#hacks','about','hacks', '#nav3');
-waypointer('#concepts','hacks','concepts', '#nav4');
+navWaypointer('#about','work','about','#nav2');
+navWaypointer('#hacks','about','hacks', '#nav3');
+navWaypointer('#concepts','hacks','concepts', '#nav4');
+
+$('#about').waypoint({offset: 200, handler: function(direction){
+	if(direction == 'down'){
+		$('.unresolved').removeClass('unresolved').addClass('resolved');
+	}else if(direction =='up'){
+		$('.resolved').addClass('unresolved').removeClass('resolved');
+	}
+}})
