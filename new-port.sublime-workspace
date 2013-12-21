@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"a",
+				"and"
+			],
+			[
 				"image",
 				"image-wrapper"
 			],
@@ -52,29 +56,74 @@
 	"buffers":
 	[
 		{
-			"file": "work/eubc/case.html",
+			"file": "work/ideahack/case.html",
 			"settings":
 			{
-				"buffer_size": 2020,
+				"buffer_size": 2246,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "work/appannie/case.html",
+			"file": "work/silverLine/case.html",
 			"settings":
 			{
-				"buffer_size": 1668,
+				"buffer_size": 1467,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "<div class=\"grid two-third\">\n	<div class=\"case-description\">\n		<h1>Sauder School of Business</h1>\n		<p>The Sauder School of Business was my first major engagement. In 2011, they wanted to showcase a revamped MBA program centered around modern themes such as Creativity, Global Thinking, and Innovation. I proposed an interactive narrative which eventually became the UBC MBA Experience, this project is now a centrepiece within the UBC MBA recruitment process. The goal of the project was for the recruitment team to have something to point to and say “That’s our program. Feel free to explore”, and this vision has now been fulfilled.\n\nEver since the UBC MBA Experience was launched, I have conceived and developed further communications pieces for converting admitted students to accept their admittance. The welcome to Sauder B.Com and UBC MBA Welcome landing pages are the ones I developed for the UBC MBA program, as well as Sauder’s prestigious Bachelor of Commerce undergraduate program.</p>\n	</div>\n</div>\n<div class=\"grid fifth case-meta\">\n	<h3>Deliverables</h3>\n	<ul>\n		<li>Web Strategy</li>\n		<li>Information Architecture</li>\n		<li>Design</li>\n		<li>Development (HTML/CSS/js)</li>\n		<li>Print</li>\n		<li>Campaigns</li>\n	</ul>\n	<a href=\"http://ubcmbawelcome.com/\" target=\"_blank\" class=\"button-link black\">Go To Website</a>\n</div>\n<div class=\"case-content\">\n\n	<div class=\"grid half\">\n		<div class=\"img-holder\">\n			<img src=\"../../work/sauder/img/aa1.png\">\n		</div>\n	</div><div class=\"grid half\">\n		<div class=\"img-holder\">\n			<img src=\"../../work/sauder/img/aa2.png\">\n		</div>	\n	</div><div class=\"grid full\">\n		<div class=\"img-holder\">\n			<img src=\"../../work/sauder/img/booth.jpg\">\n		</div>\n\n		<a href=\"/\" class=\"bottom-cta\">Back to My Works</a>\n\n	</div>\n\n<!-- 	<div class=\"grid half\">\n		<div class=\"img-holder\"><img src=\"../../work/appannie/img/aa3.jpg\"></div>\n	</div> -->\n\n</div>",
-			"file": "work/sauder/case.html",
-			"file_size": 1094,
-			"file_write_time": 130318258348710472,
+			"file": "work/ubcfc/case.html",
 			"settings":
 			{
-				"buffer_size": 1893,
+				"buffer_size": 1298,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "includes/footer.php",
+			"settings":
+			{
+				"buffer_size": 432,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 20540,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "includes/nav.php",
+			"settings":
+			{
+				"buffer_size": 552,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "work/index.php",
+			"settings":
+			{
+				"buffer_size": 33,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "about/index.php",
+			"settings":
+			{
+				"buffer_size": 39,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "hacks/index.php",
+			"settings":
+			{
+				"buffer_size": 39,
 				"line_ending": "Windows"
 			}
 		},
@@ -90,7 +139,7 @@
 			"file": "css/global.css",
 			"settings":
 			{
-				"buffer_size": 8623,
+				"buffer_size": 13670,
 				"line_ending": "Windows"
 			}
 		},
@@ -98,7 +147,7 @@
 			"file": "js/layout.js",
 			"settings":
 			{
-				"buffer_size": 1201,
+				"buffer_size": 1474,
 				"line_ending": "Windows"
 			}
 		},
@@ -106,7 +155,7 @@
 			"file": "js/func.js",
 			"settings":
 			{
-				"buffer_size": 1233,
+				"buffer_size": 1725,
 				"line_ending": "Windows"
 			}
 		}
@@ -191,12 +240,29 @@
 	},
 	"file_history":
 	[
-		"/C/xampp/htdocs/newportfolio/work/eubc/index.php",
-		"/C/xampp/htdocs/newportfolio/work/appannie/index.php",
+		"/C/xampp/htdocs/newportfolio/hacks/index.php",
 		"/C/xampp/htdocs/newportfolio/work/index.php",
 		"/C/xampp/htdocs/newportfolio/includes/header.php",
-		"/C/xampp/htdocs/newportfolio/includes/nav.php",
+		"/C/xampp/htdocs/newportfolio/work/fidelity/case.html",
+		"/C/xampp/htdocs/newportfolio/work/suncentral/case.html",
+		"/C/xampp/htdocs/newportfolio/work/sauder/case.html",
+		"/C/xampp/htdocs/newportfolio/work/clearink/case.html",
+		"/C/xampp/htdocs/newportfolio/work/duohelica/index.php",
+		"/C/xampp/htdocs/newportfolio/work/sauder/test.html",
 		"/C/xampp/htdocs/newportfolio/index.php",
+		"/C/xampp/htdocs/newportfolio/work/duohelica/case.html",
+		"/C/xampp/htdocs/newportfolio/includes/nav.php",
+		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/layout.js",
+		"/C/xampp/htdocs/newportfolio/work/abigaila/case.html",
+		"/C/xampp/htdocs/newportfolio/work/eubc/case.html",
+		"/C/xampp/htdocs/newportfolio/work/moappi/case.html",
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/config 2.php",
+		"/C/Users/Vince/Desktop/hackreactor/tech-interview_redo/practice.html",
+		"/C/Users/Vince/Desktop/hackreactor/javascript-koans-master/javascript-koans-master/KoansRunner.html",
+		"/C/Users/Vince/Desktop/hackreactor/tech-interview_redo/example.js",
+		"/C/xampp/htdocs/newportfolio/work/appannie/case.html",
+		"/C/xampp/htdocs/newportfolio/work/eubc/index.php",
+		"/C/xampp/htdocs/newportfolio/work/appannie/index.php",
 		"/C/xampp/htdocs/newportfolio/includes/footer.php",
 		"/C/xampp/htdocs/newportfolio/work/eubc/case.php",
 		"/C/xampp/htdocs/newportfolio/controller.php",
@@ -204,10 +270,7 @@
 		"/C/xampp/htdocs/newportfolio/js/layout.js",
 		"/C/xampp/htdocs/newportfolio/js/func.js",
 		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/config.php",
-		"/C/xampp/htdocs/newportfolio/work/eubc/case.html",
 		"/C/xampp/htdocs/newportfolio/work/ubcfc/index.php",
-		"/C/xampp/htdocs/newportfolio/work/appannie/case.html",
-		"/C/xampp/htdocs/newportfolio/work/duohelica/case.html",
 		"/C/Users/Vince/Desktop/newportfolio/closeButton.svg",
 		"/C/xampp/htdocs/newportfolio/js/func.php",
 		"/C/xampp/htdocs/newportfolio/.gitignore",
@@ -239,7 +302,6 @@
 		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/blog-post.php",
 		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/single.php",
 		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/template-principals.php",
-		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/layout.js",
 		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/js/layout.js",
 		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/functions.php",
 		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh-theme/float-nav-secondary.php",
@@ -305,20 +367,7 @@
 		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/js/html5.js",
 		"/C/Users/Vince/Desktop/outstanding Nov/invoice-130726-SAUD-GST.xlsx",
 		"/C/Users/Vince/AppData/Local/Temp/fz3temp-2/timeline.html",
-		"/C/Users/Vince/AppData/Local/Temp/fz3temp-2/index 2.html",
-		"/C/Users/Vince/AppData/Local/Temp/fz3temp-2/index.html",
-		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/css/style.css",
-		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/page.php",
-		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/css/skeleton.css",
-		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/css/rtl.css",
-		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/rtl.css",
-		"/C/Users/Vince/Desktop/rdh/rdh_git/theme/rdh/skeleton.css",
-		"/C/Users/Vince/Desktop/rdh/rdh_assets/webfontkit-20131104-011222/stylesheet.css",
-		"/C/Users/Vince/Desktop/rdh/rdh_assets/webfontkit-20131104-011222/specimen_files/specimen_stylesheet.css",
-		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/.viminfo",
-		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/.bash_history",
-		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/RPM-GPG-KEY.art.txt",
-		"/C/Users/Vince/AppData/Local/Temp/fz3temp-1/games.zip"
+		"/C/Users/Vince/AppData/Local/Temp/fz3temp-2/index 2.html"
 	],
 	"find":
 	{
@@ -337,6 +386,23 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"box-sizing",
+			"overflow: none",
+			"case-description",
+			"nav",
+			"nav a",
+			".ridiculous",
+			".hack-content",
+			".ani.slow",
+			".unresolved",
+			".gauge-indicator",
+			"gauge-holder",
+			".gauge-holder",
+			"visual-holder",
+			".clear",
+			"about",
+			"img-holder",
+			"img-wrapper",
 			"bottom-cta",
 			".php",
 			"case.html",
@@ -447,24 +513,7 @@
 			"section-header",
 			"section-divider",
 			"ibm",
-			"business-design",
-			"lenses",
-			"#lenses",
-			"#business-design",
-			"section-header",
-			"h4",
-			"parse",
-			"tweet",
-			"wrapper",
-			"lenses",
-			"</p>",
-			"<p>",
-			".container",
-			"newih/",
-			"start",
-			"1000ms",
-			"start",
-			"complete"
+			"business-design"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -486,29 +535,165 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 8,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "work/eubc/case.html",
+					"file": "work/ideahack/case.html",
 					"settings":
 					{
-						"buffer_size": 2020,
+						"buffer_size": 2246,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2003,
-								2003
+								2246,
+								1530
 							]
 						],
 						"settings":
 						{
 							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 351.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "work/silverLine/case.html",
+					"settings":
+					{
+						"buffer_size": 1467,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1222,
+								1222
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 130.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "work/ubcfc/case.html",
+					"settings":
+					{
+						"buffer_size": 1298,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								470,
+								470
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "includes/footer.php",
+					"settings":
+					{
+						"buffer_size": 432,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								170,
+								170
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 20540,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3408,
+								3408
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1586.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "includes/nav.php",
+					"settings":
+					{
+						"buffer_size": 552,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								156,
+								156
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -518,25 +703,26 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "work/appannie/case.html",
+					"buffer": 6,
+					"file": "work/index.php",
 					"settings":
 					{
-						"buffer_size": 1668,
+						"buffer_size": 33,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1668,
-								1111
+								26,
+								26
 							]
 						],
 						"settings":
 						{
 							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -545,25 +731,54 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "work/sauder/case.html",
+					"buffer": 7,
+					"file": "about/index.php",
 					"settings":
 					{
-						"buffer_size": 1893,
+						"buffer_size": 39,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								367,
-								385
+								33,
+								33
 							]
 						],
 						"settings":
 						{
 							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "hacks/index.php",
+					"settings":
+					{
+						"buffer_size": 39,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32,
+								32
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -574,11 +789,11 @@
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
-					"buffer": 3,
+					"buffer": 9,
 					"file": "config.php",
 					"settings":
 					{
@@ -605,19 +820,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 10,
 					"file": "css/global.css",
 					"settings":
 					{
-						"buffer_size": 8623,
+						"buffer_size": 13670,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6168,
-								6168
+								12135,
+								12135
 							]
 						],
 						"settings":
@@ -626,25 +841,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 5064.0,
+						"translation.y": 10122.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 11,
 					"file": "js/layout.js",
 					"settings":
 					{
-						"buffer_size": 1201,
+						"buffer_size": 1474,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								507,
+								507
 							]
 						],
 						"settings":
@@ -653,25 +868,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 156.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 12,
 					"file": "js/func.js",
 					"settings":
 					{
-						"buffer_size": 1233,
+						"buffer_size": 1725,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1080,
-								1080
+								1537,
+								1537
 							]
 						],
 						"settings":
@@ -717,7 +932,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.447484056603,
 			1.0
 		],
 		"rows":

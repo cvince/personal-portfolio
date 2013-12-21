@@ -187,7 +187,7 @@
 			</div><div class="grid">
 				<figure class="work-item un-entered" style="background-image: url('img/silverLine.png')">
 					<figcaption>
-						<a class="case-link" href="work/silverLine">
+						<a class="case-link" href="work/silverline">
 							<h2>SilverLine Exteriors</h2>
 							<p>Branding, Web Strategy</p>
 						</a>
