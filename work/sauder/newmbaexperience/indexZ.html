@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=0.8, user-scalable=no">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://cloud.webtype.com/css/c4d03517-373a-4465-beec-ed29cdebd782.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css" media="screen, projection">
+  
+    a{
+        text-decoration: none;
+    }
+
+    img{
+        border-style: none;
+    }
+
+  #ticker
+    {}
+  #ticker .cursor
+    {   display: inline-block; 
+        background:url(img/adCursor.png) no-repeat right; 
+        width: 10px; 
+        height: 31px; 
+        margin-bottom:-3px; 
+        text-align: center;
+    }
+  #ticker p
+    {margin:0; padding:0;}
+  #ticker code
+    {margin: 5px 5px; display: inline-block;}
+  #ticker .next 
+    {position: absolute; bottom: 1em;}
+
+
+    .wrapper{
+        position: absolute;
+        width: 302px;
+        height: 250px;
+        top: 50%;
+        left: 50%;
+        margin-left: -151px;
+        margin-top: -125px;
+        overflow: hidden;
+    }
+
+    .bannerStage{
+        background-color:#606161;
+        position: relative;
+        width:302px;
+        height:250px;
+        border-top: 0px #C2CF34 solid;
+        font-family: Interstate, Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: normal;        
+        font-size: 36px;
+        color: #fff;     
+    }
+
+    .bannerFooter{
+        position: absolute;
+        bottom: 5px;
+        left: 0px;
+    }
+
+    .typography{
+        padding: 10px;
+    }
+
+    .fade{
+        color:#B0AFB0;
+    }
+
+</style>
+<script type="text/javascript" SRC="js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" SRC="js/jquery.jticker.js"></script>
+<script type="text/javascript">
+  jQuery(document).ready(function(){
+    var endedQueue = 0;
+    // Instantiate jTicker 
+    function tickerSequencer(id,r,d){
+        jQuery(id).ticker({
+        cursorList:  "",
+        rate:        r,
+        delay:       d
+        }).trigger("play").trigger("stop");
+    };
+
+
+
+    tickerSequencer("#ticker",100,1000);
+    setTimeout(function() {$('.cursor').blink();}, 5000);
+  });
+
+</script>
+
+</head>
+
+<body>
+
+
+
+<div class="wrapper">
+    <a href="timeline.html">
+    <div  class="bannerStage">
+        <div id="ticker" class="typography">
+            <div>
+            <span class="fade">
+            <p>Dear</p>
+            <p>entrepreneurs,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            </span>
+            <p>Your MBA has</p><p> arrived.&nbsp;&nbsp;</p>
+            </div>
+        </div>
+        <img class="bannerFooter" src="img/adFooter.png">
+    </div>
+    </a>
+</div>
+</body>
+</html>

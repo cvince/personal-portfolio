@@ -1,3 +1,4 @@
+<meta charset="UTF-8" />
 <?php include('../../config.php'); ?>
 <link href='<?php echo ROOT.'css/global.css'?>' rel='stylesheet' type='text/css'>
 

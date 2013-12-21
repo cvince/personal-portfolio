@@ -67,7 +67,7 @@ section.page{
 	section.page .content{
 		padding-left: 200px;
 		padding-right: 200px;
-		overflow: none;
+		overflow: hidden;
 	}
 
 	section.page.last{
@@ -105,8 +105,9 @@ nav ul{
 }
 
 nav ul li{
-	height: 25%;
-	position: relative;	
+	height: 33%;
+	position: relative;
+	padding-top: 8%;
 }
 
 nav ul li span {
@@ -121,6 +122,13 @@ nav a{
 	text-decoration: none;
 }
 
+.work nav a:hover{
+	color:#000;
+}
+
+.about nav a:hover, .hacks nav a:hover{
+	color:#fff;
+}
 
 /*page elements*/
 
@@ -176,7 +184,7 @@ nav a{
 /*sidebars*/
 
 /*work*/
-body.work .nav-progress {background:#000; height: 17%; }
+body.work .nav-progress {background:#000; height: 20%; }
 body.work .sidebar {background: #fff; }
 
 body.work .nav-wrapper{ border-color: #ddd;}
@@ -186,7 +194,7 @@ body.work nav{ color:#666; }
 
 
 /*about*/
-body.about .nav-progress {background:#fff; height: 43%; }
+body.about .nav-progress {background:#fff; height: 57%; }
 body.about .sidebar {background: #272a2d; }
 
 body.about .nav-wrapper{ border-color: rgba(255,255,255,0.3); }
@@ -195,7 +203,7 @@ body.about nav .activated {color:#fff;}
 body.about nav{ color:rgba(255,255,255,0.6); }
 
 /*hacks*/
-body.hacks .nav-progress {background:#fff; height: 70%; }
+body.hacks .nav-progress {background:#fff; height: 100%; }
 body.hacks .sidebar {background: #3f8fd8; }
 
 body.hacks .nav-wrapper{ border-color: rgba(255,255,255,0.3); }
@@ -299,14 +307,14 @@ body.concepts nav{ color:#666; }
 	-moz-transition-timing-function: ease-out;
 	-webkit-transition-timing-function: ease-out;
 	-o-transition-timing-function: ease-out;
-	transition-duration: 5s;
-	-moz-transition-duration: 5s;
-	-webkit-transition-duration: 5s;
-	-o-transition-duration: 5s;	
+	transition-duration: 2s;
+	-moz-transition-duration: 2s;
+	-webkit-transition-duration: 2s;
+	-o-transition-duration: 2s;	
 }
 
 .ridiculous{
-	width: 9001px;
+	width: 400px;
 	transition-timing-function: ease-in!important;
 	-moz-transition-timing-function: ease-in!important;
 	-webkit-transition-timing-function: ease-in!important;
@@ -331,12 +339,26 @@ body.concepts nav{ color:#666; }
 	font-weight: lighter;
 	color:#fff;
 	padding: 10px 0 0 10px;
+	line-height: 28px;
+	float: left;
+}
+
+.hack-item span{
+	font-size: 12px;
+	color: #fff;
+	padding: 10px 10px 0 0;
+	float: right;
+	line-height: 28px;
+	text-transform: uppercase;
 }
 
 .hack-item p{
-	font-size: 14px;
 	color:#b1d1ee;
+	display: inline-block;
 	padding: 10px;
+	font-size: 14px;
+	line-height: 21px;
+	margin-bottom: 10px;
 }
 
 .hack-item:hover{
@@ -617,22 +639,26 @@ article .case-meta h3{
 
 article .case-meta ul{
 	margin: 10px 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	line-height: 21px;
 }
 
 article .case-description p{
-	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;		
+	font-size: 14px;
 	margin: 10px 0;
 }
 
 article .case-description{
 	margin-right: 20px;
 	border-right:  1px solid #000;
-	padding-right: 20px;
+	padding-right: 100px;
 }
 
 article .case-content{
 	margin: 40px 0;
-	float: right;
+	float: left;
 	text-align: center;	
 }
 
@@ -648,7 +674,7 @@ article p a:hover{
 article .img-holder, article .iframe-holder{
 	background:#fff;
 	margin: 0 20px 20px 0;
-	box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+	box-shadow: 0px 5px 15px rgba(0,0,0,0.05);
 }
 
 article .img-holder img{
@@ -666,6 +692,9 @@ article .iframe-holder iframe{
 	width: 100%;
 	height: 100%;
 	border: 0;
+	left: 0;
+	top: 0;
+	position: absolute;
 }
 
 .bottom-cta{
@@ -730,6 +759,26 @@ article .iframe-holder iframe{
 {
 	stroke: #3f8fd8;
 }
+
+.github-link img{
+	height: 20px;
+	float: right;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+a.hack-link{
+	line-height: 21px;
+	font-size: 14px;
+	border-radius: 3px;
+	margin: 0 10px 10px 0;
+	background:#b1d1ee;
+	color:#3f8fd8;
+	float: right;
+	text-decoration: none;
+	padding: 5px;
+}
+
 /*responsive*/
 
 
@@ -743,7 +792,7 @@ article .iframe-holder iframe{
 	section.page .content{
 		padding-left: 150px;
 		padding-right: 150px;
-		overflow: none;
+		overflow: hidden;
 	}
 	.nav-wrapper{
 		top: 175px;
@@ -753,6 +802,14 @@ article .iframe-holder iframe{
 	#about .grid.third.about-content{
 		width: 50%;
 	}
+
+	figure.work-item figcaption p{
+		font-size: 12px;
+	}
+
+	article .case-description{
+		padding-right: 20px;
+	}	
 
 }
 
@@ -790,6 +847,10 @@ article .iframe-holder iframe{
 		margin-left: 130px;
 	}
 
+	article .case-description p{
+		font-size: 13px;
+	}	
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -802,7 +863,7 @@ article .iframe-holder iframe{
 	section.page .header .logo{ top: 30px; }	
 	section.page .content{
 		padding-left: 100px;
-		overflow: none;
+		overflow: hidden;
 	}
 	.nav-wrapper{
 		top: 100px;

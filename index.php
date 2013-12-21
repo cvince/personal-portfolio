@@ -291,7 +291,7 @@
 
 
 
-	<section id="hacks" class="page">
+	<section id="hacks" class="page last">
 	<div class="header">
 
 		<a href="#work" class="logo">
@@ -320,15 +320,16 @@
 	</div>
 	<div class="content">
 		<div class="hack-content">
-			<div class="grid two-third hack-item"><h2>Locksmasher</h2><p>Facebook University Hackathon 2012</p></div>
-			<div class="grid two-third hack-item"><h2>SchoolZone</h2><p>Vancouver Open-Data Hackathon</p></div>
-			<div class="grid two-third hack-item"><h2>iSnooze</h2><p>Mozilla Mobile Hackathon 2012</p></div>
-			<div class="grid two-third hack-item"><h2>Febble</h2><p>Official Facebook Hackathon 2012</p></div>
+			<div class="grid two-third hack-item ani"><h2>Locksmasher</h2><span>Facebook University Hackathon 2012</span><p>We created a facebook app that consisted of a node.js server, an arduino microcontroller, and a laser printer motor connected to a door lock. The setup was configured to allow remote unlocking of a door through a facebook account.</p><a class="github-link" href="https://github.com/cvince/locksmasher" target="_blank"><img src="img/github_unhovered.png"></a></div>
+			<div class="grid two-third hack-item ani"><h2>SchoolZone</h2><span>Vancouver Open-Data Hackathon</span><p>We created an open data app using Google Maps API, and the open "hazardous intersection" data from the Insurance Corporation of BC in order to create a mapping app that helps users pinpoint the most dangerous intersections around their neighborhoods</p><a class="hack-link" href="http://schoolzone.moappi.com">Go To App</a></div>
+			<div class="grid two-third hack-item ani"><h2>iSnooze</h2><span>Mozilla Mobile Hackathon 2012</span><p>We created an alarm clock that plays Rebecca Black's "Friday" at a set time, and forces users to pay a charity $0.99 for snoozing their alarm. We didn't get the charity part working, but we did get the alarm clock's ringer and snooze functionality done for demo.</p><a class="github-link" href="https://github.com/cvince/locksmasher" target="_blank"><img src="img/github_unhovered.png"></a></div>
+			<div class="grid two-third hack-item ani"><h2>Febble</h2><span>Official Facebook Hackathon 2012</span><p>Our project for the hackathon at Facebook HQ incorporated a watch that could sync up with Facebook and allow you to dismiss pokes in real-time. The watch was connected to a laptop via USB, and consisted of an Arduino Micro.</p><a class="github-link" href="https://github.com/cvince/febble" target="_blank"><img src="img/github_unhovered.png"></a></div>
 		</div>
+		<div class="clear"></div>
 	</div>
 	</section>
 
-
+<!-- 
 
 	<section id="concepts" class="page last">
 	<div class="header">
@@ -358,7 +359,7 @@
 
 	</div>
 	</section>
-
+ -->
 
 <?php include('includes/footer.php'); ?>
 

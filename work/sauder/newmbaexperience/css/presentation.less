@@ -1,0 +1,232 @@
+@gray1: #999999;
+@gray2: #454545;
+@green: #C2CF34;
+
+.interstate {
+  font-family: Interstate, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.interstatebold {
+  font-family: Interstate, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.interstatelight {
+  font-family: "Interstate Light", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.animationWrapper{
+
+}
+
+
+.cursor{
+	position: relative;
+	text-align: center;
+}
+
+#aniCursor{
+	position: absolute;
+	left: 0px;
+	margin-top: -18px;
+}
+
+#aniCursor2{
+	height: 72px;
+	position: relative;
+	right: -20px;
+	top: 10px;
+}
+
+#aniCursor3{
+	height: 72px;
+	position: relative;
+	right: 38px;
+	top: 10px;
+	opacity: 0;
+}
+
+/*ani1*/
+
+#ani1{
+	display: none;
+}
+
+.ani{
+	.interstate;
+	font-size: 72px;
+}
+
+#ani1-1{
+	color:@gray2;
+	float:left;
+}
+
+.ani h1{
+	.interstate;
+	font-size: 72px;
+	color:@gray1;
+}
+
+#ani1-2{
+	color:@gray1;
+}
+
+
+
+/*ani3*/
+
+#ani3{
+	position: relative;
+}
+
+#ani3-1{
+	color:@gray2;
+}
+
+#ani3-2{
+	color:@gray1;
+}
+
+#aniContinue{
+	opacity: 0;
+	margin-top: 40px;	
+}
+
+.aniProfile{
+	padding-top: 10px;
+	text-align: center;
+	opacity: 0;
+}
+
+.aniProfile img{
+	width: 150px;
+	height: 150px;	
+}
+
+.aniProfile span{
+	display: block;
+}
+
+.aniProfile h2{
+	.interstate;
+	font-size: 18px;
+	margin-top: 10px;
+	color: @gray2;
+}
+
+.aniProfile h3{
+	.interstate;
+	font-size: 14px;
+	color: @gray1;
+}
+
+/*ani4*/
+#ani4{
+	line-height: 120%;
+}
+
+#ani4-2{
+	display: inline-block;
+	color: @gray2;
+	opacity:0;
+}
+
+#ani4-3{	
+	display: inline-block;
+	color: @green;
+}
+
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.ani{.interstate;font-size: 60px;}
+	.ani h1{	.interstate;	font-size: 60px;	color:@gray1;}
+	#aniCursor, #aniCursor2{	height: 70px; margin-top: -5px;}
+
+	.aniProfile img{
+		width: 130px;
+		height: 130px;	
+
+	}
+
+	.aniProfile h2{
+		font-size: 14px;
+	}
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.ani{.interstate;font-size: 24px;}
+	.ani h1{	.interstate;	font-size: 24px;	color:@gray1;}	
+
+	#aniCursor, #aniCursor2{	height: 25px; margin-top: 0px; top:0px;}
+
+	.aniProfile img{
+		padding-right: 10px;		
+		width: 30px;
+		height: 30px;
+		float:left;
+	}
+
+	.aniProfile h2{
+		.interstate;
+		font-size: 12px;
+		margin-top: 5px;
+		color: @gray2;
+	}
+
+	.aniProfile h3{
+		.interstate;
+		font-size: 10px;
+		color: @gray1;
+	}
+
+	.aniProfile{
+		padding-top: 0px;
+		text-align: left;		
+	}
+
+	#ani3{padding-bottom: 5px;}
+
+	#aniContinue{
+		opacity: 0;
+		margin-top: 10px;	
+	}
+
+	.profileWrapper{
+	  padding-top: 10px!important;
+	  padding-bottom:20px!important;
+	}	
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+	.ani{.interstate;font-size: 24px;}
+	.ani h1{	.interstate;	font-size: 24px;	color:@gray1;}	
+	#aniCursor, #aniCursor2{	height: 25px; margin-top: 0px; top:0px;}
+	.aniProfile img{
+		padding-right: 10px;
+		width: 40px;
+		height: 40px;	
+		float:left;
+	}		
+	.aniProfile{
+		text-align: left;		
+	}
+
+	#ani3{padding-bottom: 10px;}
+
+	#aniContinue{
+		opacity: 0;
+		margin-top: 20px;	
+	}
+
+}
+
