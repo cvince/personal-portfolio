@@ -1,4 +1,5 @@
 <?php
-define("ROOT", "http://localhost"."/"); ?>
+define("ROOT", "http://vincentchan.vc"."/"); ?>
 
 <!-- __DIR__ when online -->
+<?php include('includes/header.php'); ?>

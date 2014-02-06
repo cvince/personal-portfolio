@@ -1,5 +1,4 @@
 <?php include('config.php'); ?>
-<?php include('includes/header.php'); ?>
 
 <!--article holder-->
 
@@ -250,7 +249,7 @@
 			<div class="about-content unresolved ani slow">
 				<h1>About Me</h1>
 				<p>
-					My name is Vincent Chan. I am a designer, wannabe front-end developer, entrepreneur, and co-founder of <a href="http://www.ideahack.com" target="_blank">Ideahack Creative</a>. 
+					My name is Vincent Chan. I am a designer, front-end developer, entrepreneur, and co-founder of <a href="http://www.ideahack.com" target="_blank">Ideahack Creative</a>. 
 					<br><br>
 					I combine both my right and left brain in the form of design, business strategy, and web development to provide clients with comprehensive solutions for their product and business problems.
 				</p>

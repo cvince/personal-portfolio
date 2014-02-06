@@ -741,6 +741,7 @@ article .iframe-holder iframe{
 	top: 20px;
 	right: 20px;
 	color:#000;
+	z-index: 9999;	
 }
 
 .close-button span {
