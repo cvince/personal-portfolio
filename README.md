@@ -2,4 +2,4 @@ personal-portfolio
 ==================
 
 My own portfolio  
-View here: http://vincentchan.vc
+WIP here: http://www.vincentcchan.com/newport/

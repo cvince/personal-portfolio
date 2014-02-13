@@ -1,0 +1,510 @@
+@grey: #AAAAAA;
+@blue: #3F8FD8;
+@darkGrey: #666;
+@lightGrey: #A8A8A8;
+@orange: #F90;
+
+@greyRGBA: rgba(170, 170, 170, 0.9);
+@blueRGBA: rgba(63, 143, 216, 1);
+
+.transition{
+	-webkit-transition: 
+		opacity 0.6s ease-in-out, 
+		text-shadow 0.6s ease-in-out,
+		-webkit-transform 0.6s ease-in-out, 		 
+		color 0.6s ease-in-out;
+	-moz-transition: 
+		opacity 0.6s ease-in-out, 
+		text-shadow 0.6s ease-in-out,
+		-moz-transform 0.6s ease-in-out,		
+		color 0.6s ease-in-out;
+	-o-transition: 
+		opacity 0.6s ease-in-out, 
+		text-shadow 0.6s ease-in-out,
+		-o-transform 0.6s ease-in-out, 		
+		color 0.6s ease-in-out;
+	-ms-transition: 
+		opacity 0.6s ease-in-out, 
+		text-shadow 0.6s ease-in-out,
+		-ms-transform 0.6s ease-in-out, 		 
+		color 0.6s ease-in-out;
+	transition: 
+		opacity 0.6s ease-in-out, 
+		text-shadow 0.6s ease-in-out,
+		transform 0.6s ease-in-out, 		 
+		color 0.6s ease-in-out;	
+}
+
+#blurrer{
+	position: fixed;
+	z-index: 99;
+	width: 30px;
+	height: 30px;
+	left: 20px;
+	top: 20px;
+	background-color: red;
+}
+
+.dosis{
+	font-family: 'Dosis', sans-serif;
+}
+
+.crimson{
+	font-family: 'Crimson Text', serif;
+}
+
+.mainLogo{
+	position: absolute;
+	left: 0px;
+	padding: 30px;
+}
+
+.outer{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.underlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 98;
+	background-color: #fff;
+	display: none;
+}
+
+.verticalCenter{
+	position: relative;
+}
+
+#mainType{
+	color:@grey;
+	.dosis;
+	cursor:default;
+	line-height: 77px;
+	letter-spacing: 2px;	
+	font-size: 48px;	
+}
+
+#mainType img{
+	margin-bottom: -40px;
+}
+
+#mainType div{
+	display: inline-block;
+	opacity: 0;
+}
+
+#secondaryAnimation1, #secondaryAnimation2, #secondaryAnimation3{
+	opacity: 0;
+	display: inline-block;
+}
+
+#secondaryAnimation0{
+	opacity: 0;
+}
+
+.coder{
+	padding: 0 10px 0 10px;
+	.dosis;
+	color: #666;
+	background: #ddd;
+	// cursor: pointer;
+	.transition;	
+}
+
+// .coder:hover{
+// 	color:#336699;
+// 	background: #E2F2F2;
+// 	cursor: pointer;
+
+// }
+
+section{
+	.transition;	
+}
+
+.translucent{
+	opacity:0.3!important;
+}
+
+/*UNDERLAY*/
+
+#underlayWrapper{
+	line-height: 77px;
+	letter-spacing: 2px;	
+	font-size: 48px;
+	.dosis;
+	color: rgba(170, 170, 170, 1);
+	.transition;
+	cursor: default;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;	
+}
+
+#underlayWrapper img{
+	margin-bottom: -40px;
+}
+
+#underlayWrapper div{
+	display: inline-block;
+}
+
+#underlayWrapper .bgCoder{
+	padding: 0 10px 0 10px;
+	.dosis;
+	background: #eee;
+	text-shadow: 0px 0px 10px rgba(170, 170, 170, 0.7);
+	box-shadow: inset 0 0 20px white;
+	opacity: 0.4;			
+}
+
+#underlayWrapper img{
+	opacity: 0.45;
+}
+
+#underlayWrapper span{
+	color: rgba(63, 143, 216, 0.7);
+	.transition;
+}
+
+.blurry{
+	text-shadow: 0px 0px 10px rgba(170, 170, 170, 1);
+	color: rgba(170, 170, 170, 0)!important;
+	opacity: 0.4;
+	-webkit-transform: scale(0.95);
+	-moz-transform: scale(0.95);
+	-o-transform: scale(0.95);
+	-ms-transform: scale(0.95);
+	transform: scale(0.95);
+}
+
+.blurry span{
+	text-shadow: 0px 0px 10px rgba(63, 143, 216, 1);
+	color: rgba(63, 143, 216, 0)!important;
+	opacity: 0.4;
+}
+
+.closeButton{
+	text-align: center;
+	position: absolute;
+	top: 10px;
+	right: 30px;
+	z-index: 99;
+	.dosis;
+	cursor: pointer;
+	opacity: 1;
+	color: #c00;
+	width: 40px;
+	height: 40px;
+	font-size: 48px;
+	line-height: 25px;
+	font-weight: bold;
+}
+
+.closeButton:hover{
+	cursor: pointer;
+	background-color: #c00;
+	color: #fff;
+	width: 40px;
+	height: 40px;	
+}
+
+.overlay{
+	position: fixed;
+	width: 100%;
+	z-index: 99;
+	.transition;
+	-webkit-transform: scale(1.00);
+	-moz-transform: scale(1.00);
+	-o-transform: scale(1.00);
+	-ms-transform: scale(1.00);
+	transform: scale(1.00);		
+}
+
+.overlayFixed{
+	position: fixed;
+	top: 100px;
+	width: 100%;
+	height: 100%;
+	z-index: 99;
+	.transition;
+	-webkit-transform: scale(1.00);
+	-moz-transform: scale(1.00);
+	-o-transform: scale(1.00);
+	-ms-transform: scale(1.00);
+	transform: scale(1.00);		
+}
+
+
+#aboutMe, #design, #brands{
+	display: none;
+}
+
+.overlay h1{
+	.dosis;
+	font-size: 56px;
+	color: @grey;
+	font-weight: bold;
+}
+
+#design h1{
+	.dosis;
+	font-size: 56px;
+	color: @grey;
+	font-weight: bold;
+}
+
+#design iframe{
+	margin-top: 30px;
+}
+
+.overlay p{
+	margin-top: 24px;
+	font-size: 28px;
+	.crimson;
+	color: @darkGrey;
+	line-height: 30px;
+}
+
+.overlay b{
+	.crimson;
+	font-weight: 600;
+}
+
+.lightGrey{
+	color: @lightGrey;
+}
+
+.overlay .small{
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.cta{
+	display: inline-block;
+	padding: 10px;
+	font-size: 24px;
+	margin: 10px 10px 0 0;
+	color: #fff;
+	.dosis;
+	font-weight: bold;
+	background-color: @blue;
+}
+
+.cta:hover{
+	background-color: @orange;
+}
+
+.ctaWrapper{
+	margin-top: 24px;
+}
+
+.blueOverlay{
+	background-color: @blue;
+}
+
+.logoWrapperContainer{
+	margin-top: 10px;
+	height: 200px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.logoWrapper{
+	width: 1400px;
+}
+
+.logoWrapper img{
+	display: inline-block;
+	width: 190px;
+	margin-right: 10px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	#mainType,#underlayWrapper {
+		width: 820px;
+		margin-left: -100px;
+		-webkit-transform: scale(0.75);
+		-moz-transform: scale(0.75);
+		-o-transform: scale(0.75);
+		-ms-transform: scale(0.75);
+		transform: scale(0.75);
+	}
+	.shrinker {
+		width: 768px;
+		margin-left: -100px;
+		-webkit-transform: scale(0.75);
+		-moz-transform: scale(0.75);
+		-o-transform: scale(0.75);
+		-ms-transform: scale(0.75);
+		transform: scale(0.75);
+	}
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#mainType,#underlayWrapper {
+		font-size: 24px;
+		line-height: 34px;
+		letter-spacing: 1px;
+	}
+
+	#mainType img{
+		height: 48px;
+		margin-bottom: -22px;
+	}
+
+	#underlayWrapper img{
+		height: 48px;
+		margin-bottom: -22px;
+	}
+
+	.mainLogo{
+		margin-left: -30px;
+		margin-top: -30px;
+		-webkit-transform: scale(0.65);
+		-moz-transform: scale(0.65);
+		-o-transform: scale(0.65);
+		-ms-transform: scale(0.65);
+		transform: scale(0.65);
+	}
+
+	.overlay h1{
+		font-size: 18px;
+	}
+
+	.overlay p{
+		font-size: 14px;
+		line-height: 16px;
+		margin-top: 12px;
+	}
+
+	.closeButton{
+		text-align: center;
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		z-index: 99;
+		.dosis;
+		cursor: pointer;
+		opacity: 1;
+		color: #c00;
+		width: 20px;
+		height: 20px;
+		font-size: 24px;
+		line-height: 11px;
+		font-weight: bold;
+	}
+
+	.closeButton:hover{
+		cursor: pointer;
+		background-color: #c00;
+		color: #fff;
+		width: 20px;
+		height: 20px;	
+	}
+
+	.cta{
+		padding: 5px;
+		font-size: 18px;
+		margin: 5px 5px 0 0;
+	}
+
+
+		#design iframe{
+			margin-top: 10px;
+		}
+
+}
+
+
+
+@media only screen and (max-width: 479px) {
+	#mainType,#underlayWrapper {
+		font-size: 18px;
+		line-height: 24px;
+		letter-spacing: 1px;
+	}
+
+	#mainType img{
+		height: 32px;
+		margin-bottom: -15px;
+	}
+
+	#underlayWrapper img{
+		height: 32px;
+		margin-bottom: -15px;
+	}
+
+
+	.mainLogo{
+		margin-left: -30px;
+		margin-top: -20px;
+		-webkit-transform: scale(0.65);
+		-moz-transform: scale(0.65);
+		-o-transform: scale(0.65);
+		-ms-transform: scale(0.65);
+		transform: scale(0.65);
+	}
+	.overlay h1{
+		font-size: 22px;
+		margin-top: 40px;		
+	}
+
+	.overlay p{
+		font-size: 18px;
+		line-height: 20px;
+	}
+
+	.cta{
+		padding: 5px;
+		font-size: 18px;
+		margin: 5px 5px 0 0;
+	}
+
+
+	.closeButton{
+		text-align: center;
+		position: absolute;
+		top: 40px;
+		right: 0px;
+		z-index: 99;
+		.dosis;
+		cursor: pointer;
+		opacity: 1;
+		color: #c00;
+		width: 20px;
+		height: 20px;
+		font-size: 24px;
+		line-height: 11px;
+		font-weight: bold;
+	}
+
+	.closeButton:hover{
+		cursor: pointer;
+		background-color: #c00;
+		color: #fff;
+		width: 20px;
+		height: 20px;	
+	}	
+
+	//ad hoc sizing
+
+		#design iframe{
+			margin-top: 10px;
+		}
+
+		#design h1{
+			font-size: 36px;
+		}
+
+		#design .closeButton{
+			top: 0px;
+		}
+}
