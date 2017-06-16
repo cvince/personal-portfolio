@@ -9,6 +9,7 @@
 <link href='http://fonts.googleapis.com/css?family=Dosis:300,400,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 <link href='<?php echo ROOT.'css/global.css'?>' rel='stylesheet' type='text/css'>
+<script src="https://use.fontawesome.com/88591b0fd8.js"></script>
 </head>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

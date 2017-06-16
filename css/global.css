@@ -314,7 +314,7 @@ body.concepts nav{ color:#666; }
 }
 
 .ridiculous{
-	width: 400px;
+	width: 200%;
 	transition-timing-function: ease-in!important;
 	-moz-transition-timing-function: ease-in!important;
 	-webkit-transition-timing-function: ease-in!important;
@@ -411,7 +411,7 @@ body.concepts nav{ color:#666; }
 }
 
 /*cheesy colors*/
-#a-ai{color:#ff9d00;}
+#a-ai, .text-yellow{color:#ff9d00;}
 #a-ps{color:#009fdd;}
 #a-id{color:#9765c4;}
 #a-fl{color:#b74f4f;}

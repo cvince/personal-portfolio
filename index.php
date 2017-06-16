@@ -93,6 +93,33 @@
 	<div class="content">
 		<div class="gridholder work-holder">
 			<div class="grid">
+				<figure class="work-item un-entered" style="background-image: url('img/tetrascience.png')">
+					<figcaption>
+						<a class="case-link" href="work/tetrascience">
+							<h2>TetraScience</h2>
+							<p>Design Strategy, Product Design, Marketing Design, Frontend Development (Angular 1/Node/BS3)</p>
+						</a>
+					</figcaption>
+				</figure>				
+			</div><div class="grid">
+				<figure class="work-item un-entered" style="background-image: url('img/spacelist.png')">
+					<figcaption>
+						<a class="case-link" href="work/spacelist">
+							<h2>SpaceList</h2>
+							<p>Product Design, Marketing Design, Frontend Development (Angular 1/Node/BS3)</p>
+						</a>
+					</figcaption>
+				</figure>				
+			</div><div class="grid">
+				<figure class="work-item un-entered" style="background-image: url('img/everyhome.png')">
+					<figcaption>
+						<a class="case-link" href="work/everyhome">
+							<h2>EveryHome</h2>
+							<p>Product Design, Branding, Frontend Development (Isomorphic React/Redux, Material UI)</p>
+						</a>
+					</figcaption>
+				</figure>				
+			</div><div class="grid">
 				<figure class="work-item un-entered" style="background-image: url('img/sauder.png')">
 					<figcaption>
 						<a class="case-link" href="work/sauder">
@@ -121,29 +148,20 @@
 					</figcaption>
 				</figure>
 			</div><div class="grid">
-				<figure class="work-item un-entered" style="background-image: url('img/duohelica.png')">
-					<figcaption>
-						<a class="case-link" href="work/duohelica">
-							<h2>Duohelica</h2>
-							<p>Branding, Concept, Promotion</p>
-						</a>
-					</figcaption>
-				</figure>
-			</div><div class="grid">
-				<figure class="work-item un-entered" style="background-image: url('img/moappi.jpg')">
-					<figcaption>
-						<a class="case-link" href="work/moappi">
-							<h2>Moappi</h2>
-							<p>Branding, Product Design, Promotion</p>
-						</a>
-					</figcaption>
-				</figure>
-			</div><div class="grid">
 				<figure class="work-item un-entered" style="background-image: url('img/fidelity.jpg')">
 					<figcaption>
 						<a class="case-link" href="work/fidelity">
 							<h2>Fidelity Denim</h2>
 							<p>Design, Development, Web Strategy</p>
+						</a>
+					</figcaption>
+				</figure>
+			</div><div class="grid">
+				<figure class="work-item un-entered" style="background-image: url('img/duohelica.png')">
+					<figcaption>
+						<a class="case-link" href="work/duohelica">
+							<h2>Duohelica</h2>
+							<p>Branding, Concept, Promotion</p>
 						</a>
 					</figcaption>
 				</figure>
@@ -189,6 +207,15 @@
 						<a class="case-link" href="work/silverline">
 							<h2>SilverLine Exteriors</h2>
 							<p>Branding, Web Strategy</p>
+						</a>
+					</figcaption>
+				</figure>
+			</div><div class="grid">
+				<figure class="work-item un-entered" style="background-image: url('img/moappi.jpg')">
+					<figcaption>
+						<a class="case-link" href="work/moappi">
+							<h2>Moappi</h2>
+							<p>Branding, Product Design, Promotion</p>
 						</a>
 					</figcaption>
 				</figure>
@@ -257,13 +284,13 @@
 				<div id="skill-stack">
 					<h2>My Skill Stack</h2>
 					<ul>
-						<li>HTML5<div class="gaugeholder"><div class="gauge-indicator unresolved" style="width: 85%;"></div></div></li>
-						<li>CSS3<div class="gaugeholder"><div class="gauge-indicator unresolved" style="width: 95%;"></div></div></li>					
-						<li>Javascript<div class="gaugeholder"><div class="gauge-indicator unresolved" style="width: 60%;"></div></div></li>
-						<li>jQuery<div class="gaugeholder"><div class="gauge-indicator unresolved" style="width: 70%;"></div></div></li>
+						<li>HTML5/CSS3 &amp; SASS/LESS<div class="gaugeholder"><div class="gauge-indicator unresolved" style="width: 95%;"></div></div></li>
+						<li>Javascript<div class="gaugeholder"><div class="gauge-indicator unresolved" style="width: 65%;"></div></div></li>
+						<li>React/Redux<div class="gaugeholder"><div class="gauge-indicator unresolved" style="width: 75%;"></div></div></li>
+						<li>Angular<div class="gaugeholder"><div class="gauge-indicator unresolved" style="width: 85%;"></div></div></li>						
 						<li>PHP<div class="gaugeholder"><div class="gauge-indicator unresolved" style="width: 15%;"></div></div></li>
-						<li id="cs"><span id="a-ai">Ai</span> <span id="a-ps">Ps</span> <span id="a-id">Id</span> <span id="a-fl">Fl</span> <span id="a-pr">Pr</span> <span id="a-dw">Dw</span><div class="gaugeholder rd"><div class="ridiculous gauge-indicator unresolved"></div></div></li>
-						<li>git &amp; unix<div class="gaugeholder"><div class="gauge-indicator unresolved" style="width: 55%;"></div></div></li>
+						<li id="cs"><span id="a-ai">Ai</span> <span id="a-ps">Ps</span> <span id="a-id">Id</span> <span id="a-fl">Fl</span> <span id="a-pr">Pr</span> <span id="a-dw">Dw</span> <i class="fa fa-diamond text-yellow"></i><div class="gaugeholder rd"><div class="ridiculous gauge-indicator unresolved"></div></div></li>
+						<li>git &amp; unix<div class="gaugeholder"><div class="gauge-indicator unresolved" style="width: 85%;"></div></div></li>
 					</ul>
 				</div>
 
